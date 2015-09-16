@@ -1,9 +1,3 @@
---[[
-
-  Semantic relatedness prediction using LSTMs.
-
---]]
-
 local Conv = torch.class('similarityMeasure.Conv')
 
 function Conv:__init(config)
