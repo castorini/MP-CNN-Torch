@@ -1,0 +1,751 @@
+pair_ID	sentence_A	sentence_B	relatedness_score	entailment_judgment
+1	a man is riding a bicycle.	a man is riding a bike.	5.000	NEUTRAL
+2	a woman and man are dancing in the rain.	a man and woman are dancing in rain.	5.000	NEUTRAL
+3	someone is drawing.	someone is dancing.	0.300	NEUTRAL
+4	a man and a woman are kissing each other.	a man and a woman are talking to each other.	0.600	NEUTRAL
+5	a woman is slicing an onion.	a woman is cutting an onion.	4.200	NEUTRAL
+6	a person is peeling shrimp.	a person is preparing shrimp.	3.600	NEUTRAL
+7	a woman is cutting broccoli.	a woman is slicing broccoli.	5.000	NEUTRAL
+8	a man is playing a guitar.	a woman is playing the guitar.	2.750	NEUTRAL
+9	two men are fistfighting in a ring.	two men fistfight in a ring.	5.000	NEUTRAL
+10	a small boy is playing with a dog.	a baby is playing with a dog.	3.750	NEUTRAL
+11	the man is drawing.	a man is drawing.	5.000	NEUTRAL
+12	a man is cutting a potato.	a woman is cutting a tomato.	1.250	NEUTRAL
+13	a small dog laying on the bed.	a small dog is laying on a bed.	5.000	NEUTRAL
+14	a person wipes butter on a tray.	a person is buttering a tray.	4.250	NEUTRAL
+15	two men are playing football.	two men are practicing football.	3.400	NEUTRAL
+16	the man is playing the guitar.	the girl is playing the guitar.	1.600	NEUTRAL
+17	the man is slicing a potato.	a man is slicing potato.	5.000	NEUTRAL
+18	a boy is playing a guitar.	a kid is playing a guitar.	3.600	NEUTRAL
+19	the man is slicing a potato.	a man is slicing potato.	5.000	NEUTRAL
+20	a man is peeling a potato.	a man is slicing a potato.	2.600	NEUTRAL
+21	a woman is stabbing a potato with a fork.	a woman is puncturing a potato with a fork.	5.000	NEUTRAL
+22	a child is waking up.	a girl is waking up.	3.200	NEUTRAL
+23	a boy is playing a key-board.	a little boy is playing a keyboard.	4.800	NEUTRAL
+24	a woman is cutting an onion.	a woman is cutting through an onion.	5.000	NEUTRAL
+25	a toy train is striking a toy car.	a toy train strikes a toy car.	5.000	NEUTRAL
+26	a man is playing the guitar.	a man is playing the flute.	2.200	NEUTRAL
+27	a cat opens a drawer and climbs inside.	a cat is opening a drawer and climbing inside.	5.000	NEUTRAL
+28	a woman is frying a food.	a woman is deep frying food.	4.250	NEUTRAL
+29	a woman plays the flute.	a woman is playing the flute.	5.000	NEUTRAL
+30	a man is dicing an onion.	a woman is cutting an onion.	2.500	NEUTRAL
+31	a girl is playing a guitar.	a man is playing a guitar.	2.800	NEUTRAL
+32	a girl is singing on stage.	a man is singing on stage.	2.800	NEUTRAL
+33	a woman is riding a horse.	a woman is riding a donkey.	2.800	NEUTRAL
+34	a girl is playing a guitar.	a man is playing a guitar.	2.800	NEUTRAL
+35	a woman is brushing some shrimp.	a woman brushes some shrimp.	5.000	NEUTRAL
+36	a man is dancing on the ceiling.	a man is dancing on the ceiling of a room.	4.800	NEUTRAL
+37	a woman is playing an electric guitar.	a man is playing an acoustic guitar.	2.400	NEUTRAL
+38	a woman thinly slices an onion with a large knife.	a woman is slicing onions with a large knife.	4.200	NEUTRAL
+39	a man is playing a keyboard.	a man plays a keyboard.	5.000	NEUTRAL
+40	a man plays the guitar.	a man is playing the guitar.	5.000	NEUTRAL
+41	a woman is peeling a potato.	a woman peels a potato.	5.000	NEUTRAL
+42	a woman is handling a frog.	a man is holding a frog.	3.750	NEUTRAL
+43	a person is peeling shrimp.	a man is peeling shrimp.	3.800	NEUTRAL
+44	a man is playing a flute.	a man is playing a guitar.	2.000	NEUTRAL
+45	a man is playing a flute.	a man is playing a guitar.	2.000	NEUTRAL
+46	a man is playing a guitar.	a man is playing a flute.	1.583	NEUTRAL
+47	a man is playing a piano.	a man is playing a guitar.	1.778	NEUTRAL
+48	a man is playing a guitar.	a man is playing a piano.	2.000	NEUTRAL
+49	a man is playing a flute.	a man is playing a guitar.	2.000	NEUTRAL
+50	a man is playing a flute.	a man is playing a guitar.	2.000	NEUTRAL
+51	two women are on a couch.	two women are hugging on a couch.	3.200	NEUTRAL
+52	someone is slicing a cucumber.	a man is slicing a cucumber.	3.800	NEUTRAL
+53	a kitten is playing with a blue rope toy.	a kitten is playing with a toy.	4.400	NEUTRAL
+54	a group of people are sweeping water out of a house.	people are sweeping water out of a house.	5.000	NEUTRAL
+55	the dog is barking at the toy.	a dog is barking at a toy.	5.000	NEUTRAL
+56	a person folds a tortilla.	a man folds a tortilla.	3.500	NEUTRAL
+57	a cat is drinking milk.	a kitten is drinking milk.	4.000	NEUTRAL
+58	a person is driving a car.	a man is driving a car.	3.500	NEUTRAL
+59	a turtle is walking.	a tortoise is walking.	4.400	NEUTRAL
+60	a cow is eating grass.	a cow is eating hay.	3.800	NEUTRAL
+61	a woman is chopping broccoli.	a woman is chopping garlic.	2.600	NEUTRAL
+62	a man is crying.	a man is screaming.	3.000	NEUTRAL
+63	a woman is putting on sun glasses.	a woman puts on sunglasses.	5.000	NEUTRAL
+64	the man is playing the guitar.	a man is playing guitar.	5.000	NEUTRAL
+65	a man is cutting an onion.	a man is cutting a plantain.	3.667	NEUTRAL
+66	a man is slicing a potato.	a woman is peeling a potato.	2.333	NEUTRAL
+67	a woman is slicing a potato.	a woman is slicing carrot.	2.500	NEUTRAL
+68	a man plays a guitar.	a man is playing a guitar.	5.000	NEUTRAL
+69	women are running.	two women are running.	3.824	NEUTRAL
+70	a woman is tapping her fingers on a table.	a woman is tapping her fingers.	4.000	NEUTRAL
+71	someone is boiling okra in a pot.	someone is cooking okra in a pan.	4.400	NEUTRAL
+72	a man is smoking.	a man is mixing.	0.200	NEUTRAL
+73	the man is playing the drums.	a man is playing drums.	5.000	NEUTRAL
+74	a man dives into a pool.	a man is diving into a pool.	5.000	NEUTRAL
+75	a woman is cutting a leak.	a woman is slicing a leek.	4.000	NEUTRAL
+76	a man is playing a harp.	a woman is playing a guitar.	1.600	NEUTRAL
+77	a man dives into a pool.	a man dives into a swimming pool.	5.000	NEUTRAL
+78	a little boy is playing a guitar.	a boy is playing guitar.	4.600	NEUTRAL
+79	the man is smashing garlic.	a man is smashing some garlic.	5.000	NEUTRAL
+80	a man is cutting up a potato.	a man is cutting up carrots.	2.375	NEUTRAL
+81	a woman is dancing.	the man is dancing.	2.600	NEUTRAL
+82	women are talking.	the men are talking.	2.600	NEUTRAL
+83	a girl is putting gel in her hair.	a woman is putting gel on her hair.	2.600	NEUTRAL
+84	a kid is playing guitar.	a man is playing a guitar.	2.200	NEUTRAL
+85	a group of people are marching in place.	a group of people are dancing in concert.	1.700	NEUTRAL
+86	a man and a woman is kissing each other.	a man and a woman are hugging and kissing each other.	3.400	NEUTRAL
+87	the woman is shooting a machine gun.	the man is shooting a gun.	2.000	NEUTRAL
+88	a man played the piano.	a man plays a piano.	4.000	NEUTRAL
+89	a woman is slicing an onion.	someone is slicing a onion.	3.250	NEUTRAL
+90	a man is slicing a cucumber.	a man is cutting cucumbers.	4.500	NEUTRAL
+91	a girl is eating a cupcake.	a woman is eating a cupcake.	2.600	NEUTRAL
+92	a woman is cutting an onion.	a man is chopping an onion.	2.000	NEUTRAL
+93	the man is playing a guitar.	a baby is playing a guitar.	1.800	NEUTRAL
+94	a man is playing the guitar.	a man is playing the drums.	1.556	NEUTRAL
+95	two little girls talk on the telephone.	two girls talk on the phone.	4.500	NEUTRAL
+96	a man is chopping a log with an axe.	a man is chopping a tree trunk with an axe.	4.000	NEUTRAL
+97	a woman is climbing a cliff.	a woman is climbing a rock face.	4.500	NEUTRAL
+98	a man is slicing an onion.	a man slices an onion.	5.000	NEUTRAL
+99	a polar bear is running towards a group of walruses.	a polar bear is chasing a group of walruses.	4.200	NEUTRAL
+100	a person is cutting a capsicum into pieces.	a person is slicing a garlic into pieces.	1.600	NEUTRAL
+101	a man is talking with a woman.	a woman is walking with a dog.	0.500	NEUTRAL
+102	the man is walking.	a man is talking.	1.400	NEUTRAL
+103	someone is pouring oil into a skillet.	someone is pouring milk into a blender.	1.600	NEUTRAL
+104	a small kitten is playing a ball.	a kitten is playing with a ball.	4.400	NEUTRAL
+105	a man is playing a guitar.	a woman is playing a flute.	1.800	NEUTRAL
+106	a woman is cutting some fish.	a woman is cutting tofu.	2.200	NEUTRAL
+107	a girl is playing a violin.	a girl is playing a flute.	2.600	NEUTRAL
+108	someone is playing a piano.	someone is playing guitar.	2.400	NEUTRAL
+109	a man is playing two pianos.	a cat is playing a piano.	1.600	NEUTRAL
+110	a man is exercising.	a girl is exercising.	3.000	NEUTRAL
+111	a person is slicing a scallop.	a person is slicing octopus.	2.000	NEUTRAL
+112	a man and a woman are riding on their bicycles.	a man and woman are riding a motorcycle.	2.000	NEUTRAL
+113	a man is pouring rice a roni into a pan.	a man poured ric-a-roni into a pan.	3.800	NEUTRAL
+114	two men are fighting in a cow pasture.	two men are fighting in a cattle pen.	4.000	NEUTRAL
+115	a woman is adding oil to a pan.	a man is pouring oil into a pan.	3.000	NEUTRAL
+116	a girl makes up her bed.	a young girl makes her bed.	4.400	NEUTRAL
+117	the cat played with a watermelon.	a cat is playing with a watermelon.	4.800	NEUTRAL
+118	a girl jumps on a car.	a girl is jumping onto a car.	4.800	NEUTRAL
+119	a man is breaking wooden boards with his hand.	a man is breaking tiles with his hands.	2.500	NEUTRAL
+120	a girl is playing guitar.	a girl is playing a piano.	2.000	NEUTRAL
+121	a man is praying.	a man is dancing.	0.750	NEUTRAL
+122	a man is praying.	a man is running.	0.727	NEUTRAL
+123	a car is parking.	a cat is playing.	0.000	NEUTRAL
+124	a man is running.	a man is dancing.	1.250	NEUTRAL
+125	a man is dancing.	a man is singing.	1.250	NEUTRAL
+126	a man is running.	a man is singing.	1.250	NEUTRAL
+127	a man is singing.	a man is dancing.	0.500	NEUTRAL
+128	a man is carrying another man over his shoulder.	a man is carrying someone on his shoulder.	3.250	NEUTRAL
+129	a woman is peeling a potato.	a woman is slicing a tomato.	1.333	NEUTRAL
+130	a woman is cutting a tomato.	a woman is slicing a potato.	1.000	NEUTRAL
+131	someone is peeling a potato.	someone is slicing a tomato.	1.400	NEUTRAL
+132	a woman is peeling a potato.	a woman is slicing a tomato.	1.333	NEUTRAL
+133	two robots kiss.	two robots are kissing.	5.000	NEUTRAL
+134	two boys on a couch are playing video games.	two boys are playing a video game.	4.000	NEUTRAL
+135	the man is hiking in the woods.	a man is tracking in the wood.	3.000	NEUTRAL
+136	a woman is squeezing a lemon.	a woman is squeezing juice out of a lemon.	4.400	NEUTRAL
+137	a man is playing piano.	a man is playing a violin.	2.000	NEUTRAL
+138	a man is playing a flute.	a man is playing guitar.	2.167	NEUTRAL
+139	a man is riding a bike.	a woman is riding a horse.	1.400	NEUTRAL
+140	a woman is slicing an onion.	a man is slicing a tomato.	1.200	NEUTRAL
+141	a woman is slicing a carrot.	a man is slicing a tomato.	1.200	NEUTRAL
+142	a woman is slicing an onion.	a woman is slicing lemons.	2.200	NEUTRAL
+143	a girl is styling her hair.	a girl is filing her nails.	1.250	NEUTRAL
+144	a man walking down the stairs.	a man walks down a staircase.	5.000	NEUTRAL
+145	a man is riding a horse by a creek.	a man is riding a horse.	4.000	NEUTRAL
+146	a woman is playing the guitar.	a person is playing a guitar.	4.000	NEUTRAL
+147	a man is playing a guitar.	a man is playing a guitar and singing.	3.200	NEUTRAL
+148	two people are riding a motorcycle.	two people are riding a bike.	2.000	NEUTRAL
+149	a man is playing a guitar.	a woman is playing an electric guitar.	2.200	NEUTRAL
+150	a man is playing a guitar and singing.	a man is playing a guitar.	3.200	NEUTRAL
+151	a man is walking in the rain.	a man and woman is walking in the grand.	1.500	NEUTRAL
+152	a kangaroo is eating.	kangaroo eating.	4.750	NEUTRAL
+153	a man is fishing.	a man is exercising.	0.500	NEUTRAL
+154	a woman is swimming.	a man is singing.	0.067	NEUTRAL
+155	a woman is eating.	a animal is eating.	1.600	NEUTRAL
+156	a boy and a girl is dancing in the rain.	a man and woman is dancing in the rain.	2.600	NEUTRAL
+157	a man is driving a car.	a man drives a car.	4.875	NEUTRAL
+158	a woman is grating onion.	a woman grates onions.	5.000	NEUTRAL
+159	two roosters are fighting.	two men are fighting.	2.000	NEUTRAL
+160	a man is riding a horse.	a man is driving a car.	1.400	NEUTRAL
+161	a man is riding a horse.	a man is driving a car.	1.400	NEUTRAL
+162	a man is eating a pizza.	a man is eating a food.	3.600	NEUTRAL
+163	a man is shooting a gun.	a man is slicing a bun.	0.800	NEUTRAL
+164	a man is picking up a tree.	a man is carrying a tree.	3.800	NEUTRAL
+165	a woman is cutting an onion.	a woman is cutting meat.	2.000	NEUTRAL
+166	the woman is slicing herbs.	the man is slicing bread.	1.600	NEUTRAL
+167	a boy is playing the piano.	a man is playing a piano.	3.000	NEUTRAL
+168	a baby elephant is eating.	a baby elephant eats a sapling.	3.615	NEUTRAL
+169	a person is peeling a potato.	the man is peeling a potato.	3.750	NEUTRAL
+170	a person is playing a piano.	a person is slicing a potato.	0.500	NEUTRAL
+171	a woman is cracking eggs into a bowl.	a woman is cracking eggs.	4.000	NEUTRAL
+172	a person is playing the keyboard.	a boy is playing a key-board.	4.000	NEUTRAL
+173	a boy whacks a man with a sword.	a boy spanks a man with a plastic sword.	3.333	NEUTRAL
+174	a person is slicing a carrot into pieces.	a person is cutting an onion into pieces.	1.500	NEUTRAL
+175	a man sliced through a bunch of water bottles with a knife.	a man is slicing a line of water bottles with a knife	4.400	NEUTRAL
+176	a man is playing guitar.	a man plays a guitar.	4.857	NEUTRAL
+177	a man is writing in a book.	a man is writing on a paper.	2.875	NEUTRAL
+178	a man is spitting.	a man is talking.	0.800	NEUTRAL
+179	a man is playing a musical keyboard.	a man is playing a keyboard piano.	5.000	NEUTRAL
+180	a woman is slicing a garlic.	a woman is slicing a big pepper.	2.200	NEUTRAL
+181	a person is making a bed.	a person is eating at a table.	0.200	NEUTRAL
+182	the man is buttering the bread.	the man is stirring the rice.	0.400	NEUTRAL
+183	a woman is hitting a man.	a woman is taking a bath.	0.200	NEUTRAL
+184	a man is playing keyboard.	a man is playing guitar.	1.800	NEUTRAL
+185	a man is playing a violin.	a man is playing a harp.	1.600	NEUTRAL
+186	three men are dancing.	women are dancing.	1.300	NEUTRAL
+187	a man is speaking.	a man is dancing.	1.200	NEUTRAL
+188	a man is dancing.	a man is speaking.	1.200	NEUTRAL
+189	the woman is smoking.	the man is walking.	0.200	NEUTRAL
+190	a man is dancing.	a man is thinking.	1.200	NEUTRAL
+191	the man erased what the other man had on the board.	the man erased the work on the board.	3.000	NEUTRAL
+192	a man is riding a motorcycle.	a man is riding a motorcycle through a town.	3.500	NEUTRAL
+193	a man is riding a motorcycle on the highway.	a man is riding a motorcycle.	3.500	NEUTRAL
+194	a woman is slicing up some meat.	a woman is slicing some onions.	2.000	NEUTRAL
+195	a person is combing a cat hair.	a person is brushing a cat.	4.400	NEUTRAL
+196	a woman cuts up broccoli.	a woman is cutting broccoli.	5.000	NEUTRAL
+197	a man is playing a piano.	a woman is peeling a potato.	0.000	NEUTRAL
+198	someone is slicing a tomato.	someone is slicing fruit.	3.200	NEUTRAL
+199	a woman is dancing in a cage.	a woman is dancing.	3.250	NEUTRAL
+200	a woman is swimming.	a man is spitting.	0.000	NEUTRAL
+201	a man is running.	a man is mooing.	1.000	NEUTRAL
+202	the man is playing the guitar.	the man played his guitar.	3.667	NEUTRAL
+203	a cat stares into the camera.	a cat addresses the camera.	3.000	NEUTRAL
+204	the baby is laughing and crawling.	a baby is laughing and crawling on the floor.	4.200	NEUTRAL
+205	a man plays a trumpet.	a man is playing the trumpet.	5.000	NEUTRAL
+206	a woman is shooting a gun.	a woman shoots a shotgun.	4.091	NEUTRAL
+207	a man is playing the drums.	a man is playing guitar.	1.800	NEUTRAL
+208	a woman is dancing in the rain.	a woman is dancing in railway station.	2.000	NEUTRAL
+209	a woman is riding a horse.	a man rides a horse.	2.800	NEUTRAL
+210	a woman is dancing.	a woman is exercising.	1.000	NEUTRAL
+211	a kid is playing an instrument.	a young boy is playing a wind instrument.	3.800	NEUTRAL
+212	someone slices a bottle with a sword.	a man breaks a bottle with a sword.	4.000	NEUTRAL
+213	a man is peeling a banana.	a woman is peeling a potato.	1.400	NEUTRAL
+214	a woman is cutting an apple.	a woman is cutting potato.	1.800	NEUTRAL
+215	the man is peeling an apple.	a man peels an apple.	5.000	NEUTRAL
+216	a boy is riding a horse.	a monkey is riding a bus.	0.400	NEUTRAL
+217	the puppy tried to get out of the tub.	a puppy is trying to get out of a bathtub.	4.400	NEUTRAL
+218	the man is playing the guitar.	the man is playing with a skull.	1.000	NEUTRAL
+219	an animal is walking on the ground.	a solenodon is walking along the ground.	3.000	NEUTRAL
+220	a band is playing on stage.	a woman is dancing on a stage.	1.200	NEUTRAL
+221	a woman is playing a guitar and singing.	a woman is playing the guitar.	3.200	NEUTRAL
+222	a little girl is playing a grand piano on stage.	a little girl is playing the piano.	2.600	NEUTRAL
+223	the man is eating.	a man is eating food.	4.600	NEUTRAL
+224	a group of people dancing	a group of men are dancing.	3.400	NEUTRAL
+225	a man plays a guitar.	a woman is playing guitar.	2.000	NEUTRAL
+226	a little boy hits a golf ball.	the little boy swung at the golf ball.	4.000	NEUTRAL
+227	a cat swings on a ceiling fan.	a cat is spun around by a ceiling fan.	4.200	NEUTRAL
+228	a guy is taking off his sunglasses.	a boy is removing his sunglasses.	3.800	NEUTRAL
+229	someone is reading an email.	a man is reading his email.	3.400	NEUTRAL
+230	a woman is playing the flute.	a girl is playing a flute.	3.800	NEUTRAL
+231	the woman is dicing onions.	a woman is cutting an onion.	4.400	NEUTRAL
+232	a monkey is brushing a bull dog.	a monkey brushes a dog.	4.200	NEUTRAL
+233	a person is slicing onions.	someone is slicing an onion.	4.600	NEUTRAL
+234	a woman is slicing a onion.	a woman is cutting a potato.	1.200	NEUTRAL
+235	a man is playing the piano.	a woman is playing a guitar.	1.200	NEUTRAL
+236	a woman is washing her hands.	a woman is straightening her hair.	0.800	NEUTRAL
+237	a woman fires a shotgun.	a woman is shooting a gun.	3.200	NEUTRAL
+238	a man is eating a bowl of cereal.	the man is eating cereal.	4.000	NEUTRAL
+239	a girl is coming up on a car.	a girl jumps on top of a car.	2.600	NEUTRAL
+240	a woman is bathing into bath-tub.	a woman is taking a bath.	4.400	NEUTRAL
+241	a motorcyclist crashes on his motorcycle.	a person crashes on a motorcycle.	4.200	NEUTRAL
+242	a man is dangling a mouse near a snake.	a man is feeding a mice to a snake.	3.200	NEUTRAL
+243	a man and a woman are walking in the woods.	a man and woman are walking through the jungle.	3.400	NEUTRAL
+244	a person pours some rice pudding into a bowl.	the lady poured the rice pudding into a bowl.	4.000	NEUTRAL
+245	a man stares out a window.	a man looks out the window.	4.800	NEUTRAL
+246	a woman is firing a rifle.	a woman is cutting a lemon.	0.200	NEUTRAL
+247	a man is eating a banana.	someone is peeling a banana.	1.800	NEUTRAL
+248	the men are performing on stage.	the comedic mimes performed on stage.	2.600	NEUTRAL
+249	a cartoon woman dives into a pool.	a cartoon woman is diving off a board.	2.800	NEUTRAL
+250	the lady put the baby int a trashcan.	a woman puts a baby in a trash can.	5.000	NEUTRAL
+251	someone is frying meat.	someone is playing paino.	0.250	NEUTRAL
+252	a man is rapidly chopping some mushrooms using a knife.	a person is quickly chopping mushrooms with a knife.	3.750	NEUTRAL
+253	a woman is adding ingredients to a bowl.	a woman is cracking three eggs into a bowl.	1.750	NEUTRAL
+254	a skateboarder does tricks on a half-pipe.	a man skateboards on a half pipe.	3.500	NEUTRAL
+255	a man is speaking on a stage.	a man is speaking at a podium.	3.400	NEUTRAL
+256	a man is playing a guitar.	a man in a hat is playing a harp.	1.400	NEUTRAL
+257	a man is playing on his keyboard.	a man is playing a guitar.	1.400	NEUTRAL
+258	a person is cutting a potato.	a person is slicing a shallot.	1.000	NEUTRAL
+259	a man is playing drums.	a man is playing his guitar.	1.800	NEUTRAL
+260	a man is dancing on the ceiling of a room.	a man is dancing upside-down on the ceiling.	4.600	NEUTRAL
+261	two men are dancing.	two women are shopping.	0.400	NEUTRAL
+262	someone is seasoning eggs.	someone is seasoning two raw eggs in a bowl.	3.600	NEUTRAL
+263	a woman is peeling an onion.	the woman is slicing green onions.	3.250	NEUTRAL
+264	a person is mixing a pot of rice.	a person is peeling a potato.	0.778	NEUTRAL
+265	a man is swinging in a rope.	a gibbon is swinging in the trees.	1.250	NEUTRAL
+266	someone is slicing a onion.	someone is carrying a fish.	0.750	NEUTRAL
+267	a man is cutting tomatoes.	a woman is cutting broccoli.	1.500	NEUTRAL
+268	a woman is boiling shrimp.	a woman is combing her hair.	1.000	NEUTRAL
+269	a man cuts a potato.	a man is slicing a potato.	3.750	NEUTRAL
+270	a man is dancing on the road.	a man is dancing.	3.250	NEUTRAL
+271	the deer jumped over the fence.	a deer jumps over a cyclone fence.	4.000	NEUTRAL
+272	a girl dances in the rain.	a woman is dancing in the rain.	3.000	NEUTRAL
+273	a woman is writing a letter.	a woman is sitting at a desk.	1.667	NEUTRAL
+274	a gorilla is playing the drums.	a monkey is playing drums.	3.333	NEUTRAL
+275	a man is playing a guitar.	the girl is playing the guitar.	2.250	NEUTRAL
+276	a woman is riding on a horse.	a woman is picking tomatoes.	0.500	NEUTRAL
+277	a lion cub tries to climb a fence.	a lion tries to climb over a wall.	2.750	NEUTRAL
+278	a man is talking on a cell phone.	a guy is talking into a microphone.	2.000	NEUTRAL
+279	a man is playing a guitar.	a man is cleaning a cd.	0.833	NEUTRAL
+280	the boy cut the grass by the curb with scissors.	a boy cuts grass with scissors.	3.750	NEUTRAL
+281	a woman is dicing some peeled potatoes cut into thick strips.	a woman is chopping a peeled potato into slices.	4.000	NEUTRAL
+282	a man with glasses is talking.	a man in a library is talking.	3.250	NEUTRAL
+283	a little girl peddling a scooter.	a girl is riding a scooter.	2.750	NEUTRAL
+284	a woman is cutting some flowers.	a woman is cutting broccoli.	1.000	NEUTRAL
+285	a person is walking down a stone path.	a man is walking down a sidewalk.	3.500	NEUTRAL
+286	someone is pouring chicken broth into a pot.	the man is pouring broth into the pot.	3.750	NEUTRAL
+287	a man plays the keyboard with his nose.	the man is playing the piano with his nose.	4.400	NEUTRAL
+288	a man is playing guitar.	a cat is playing.	0.400	NEUTRAL
+289	a animal is eating.	the animal is hopping.	0.400	NEUTRAL
+290	a man is lifting weights.	a man is lifting a barbell.	4.200	NEUTRAL
+291	a man is running with a bus.	a man runs with a truck.	2.500	NEUTRAL
+292	a man is climbing a rope.	a man is sitting on a rock.	0.250	NEUTRAL
+293	a cat is playing the piano.	a cat is licking its paw.	0.250	NEUTRAL
+294	a woman is dancing in the rain.	a woman is adding oil to a dish.	0.250	NEUTRAL
+295	a cat cleans itself.	a cat is licking itself.	3.800	NEUTRAL
+296	a man is kicking a soccer ball.	a man is performing tricks with a soccer ball.	2.600	NEUTRAL
+297	men are running a race.	racers are running down a track.	2.600	NEUTRAL
+298	a woman opens a window.	a woman is looking out a window.	2.000	NEUTRAL
+299	a man is cutting tomatoes into pieces.	a woman is cutting potatoes.	1.800	NEUTRAL
+300	a man is playing a flute.	a woman is applying eye liner.	0.000	NEUTRAL
+301	a woman is cutting potatoes.	a woman is slicing carrots.	1.200	NEUTRAL
+302	three men are doing same dance in the street.	three shirtless men are dancing in the street.	3.800	NEUTRAL
+303	a chicken is pecking at a dead mouse.	a rooster pecks at a dead mouse.	3.600	NEUTRAL
+304	a woman is chopping an onion.	a woman is chopping garlic with a knife.	1.800	NEUTRAL
+305	the woman is thinly slicing a cucumber.	the woman is slicing a tomato.	1.200	NEUTRAL
+306	a person is slicing a bread pieces.	a man is slicing bread.	3.200	NEUTRAL
+307	a woman is cutting a squash.	a woman is cutting big pepper.	2.200	NEUTRAL
+308	a woman is adding oil on fishes.	a woman is riding a horse.	0.800	NEUTRAL
+309	a woman is grating carrots.	a woman is coating a pork chop.	1.600	NEUTRAL
+310	someone is cleaning a animal.	a woman is cleaning a shrimp.	2.800	NEUTRAL
+311	the man is playing the guitar.	the man is peeling a potato.	0.583	NEUTRAL
+312	a man is talking on the phone.	a man is talking.	3.200	NEUTRAL
+313	a woman is smoking.	a woman is making some food.	0.800	NEUTRAL
+314	a man laying down and shooting a gun	a man is laying on the ground shooting a rifle.	3.800	NEUTRAL
+315	a man is being put into an abulance.	a man is pouring pasta onto a plate.	0.000	NEUTRAL
+316	a man is diving into a swimming pool.	a man is singing into a microphone.	0.667	NEUTRAL
+317	a man is firing a shot gun.	a man shoots a shotgun.	5.000	NEUTRAL
+318	the man is shaking hands with other men.	a man is shaking another mans hand.	4.333	NEUTRAL
+319	a target is being hit with gun fire.	the target was being shot with bullets.	4.214	NEUTRAL
+320	a man playing the guitar.	a man is playing a flute.	1.800	NEUTRAL
+321	a man is peeling potato.	a man is playing a guitar.	0.400	NEUTRAL
+322	the woman is riding a horse.	a man is riding a horse in an arena.	2.000	NEUTRAL
+323	an airplane moves along a runway.	a plane is landing on a runway.	2.800	NEUTRAL
+324	a woman is slipping in the water-tub.	a woman is lying in a raft.	0.800	NEUTRAL
+325	a man is mowing a lawn.	a man is mixing.	0.800	NEUTRAL
+326	a man is dancing.	a woman is exercising.	0.400	NEUTRAL
+327	a woman is exercising.	a man is dancing.	0.250	NEUTRAL
+328	a woman is peeling a potato.	a woman is hitting a man.	0.750	NEUTRAL
+329	a man is playing piano.	a man is laying on the ground.	0.750	NEUTRAL
+330	a woman is doing ballet.	a woman is riding on a horse.	1.000	NEUTRAL
+331	a woman is applying makeup.	a man is playing a guitar.	0.000	NEUTRAL
+332	a woman is cutting an onion.	a woman is rowing a boat.	0.800	NEUTRAL
+333	a woman is slicing a big pepper.	a person is cutting a green pepper.	3.400	NEUTRAL
+334	a woman is stirring rice in a pot.	someone is putting rice in a pan.	2.769	NEUTRAL
+335	a boy is playing the violin onstage.	a boy is playing an instrument.	2.800	NEUTRAL
+336	the woman is measuring the other woman.	the lady measured the other woman's ankle.	3.200	NEUTRAL
+337	a man puts some cheese on a pizza.	a man is sprinkling shredded cheese on a pizza.	4.200	NEUTRAL
+338	a woman puts slabs of meat in a pan.	a man puts pieces of meat into a plastic bag.	2.400	NEUTRAL
+339	the boy played his trumpet.	a boy is playing the trumpet.	4.400	NEUTRAL
+340	a person is riding a horse.	a man is riding a motorcycle.	1.800	NEUTRAL
+341	a man is staring at a leaf.	a man is slicing a vegetable.	0.800	NEUTRAL
+342	a woman is slicing an onion.	a woman is cutting a carrot.	1.400	NEUTRAL
+343	a man is slicing vegetables.	a woman is slicing a potato.	2.250	NEUTRAL
+344	a cat is playing.	a woman is playing flute.	0.250	NEUTRAL
+345	a man is riding a bicycle.	a man is riding a bicycle around a parking lot.	3.250	NEUTRAL
+346	a band is performing on a stage.	a band is playing and singing on a stage.	4.500	NEUTRAL
+347	a person is picking a komodo dragon and putting it in a box.	a person is placing a baby komodo dragon into a container.	4.200	NEUTRAL
+348	the woman is slicing fish cake.	the woman is riding a horse.	0.800	NEUTRAL
+349	a man is eating bread.	a man is playing flute.	0.800	NEUTRAL
+350	a woman is cooking shrimp.	a woman is dancing.	0.800	NEUTRAL
+351	a woman is dancing.	a woman is slicing ginger.	0.250	NEUTRAL
+352	a woman tosses a cat in the air, and the cat hangs off a rod on the ceiling.	a person throws a cat in the air and it grabs onto the ceiling.	3.500	NEUTRAL
+353	a person drops a camera down an escelator.	a man tosses a bag down an escalator.	2.750	NEUTRAL
+354	a big turtle is walking.	the tortoise is walking.	4.250	NEUTRAL
+355	a man is doing exercise.	a man is firing a rifle.	0.500	NEUTRAL
+356	a man is burning a flag.	a man is shooting a gun.	0.500	NEUTRAL
+357	the man is pushing the van.	the woman is singing.	0.000	NEUTRAL
+358	a man is eating wood.	a man is adding oil to car.	0.500	NEUTRAL
+359	a dog is speaking to the camera.	a dog is eating some water melon.	0.600	NEUTRAL
+360	a man is putting two paper towels on a paper plate.	a man is putting papers on a dish.	2.200	NEUTRAL
+361	a man and woman are walking.	a man and woman walking hold each other.	3.200	NEUTRAL
+362	a man is cutting a rope with a sword.	the man slced through a thick rope with a sword.	4.400	NEUTRAL
+363	the man is singing and playing the guitar.	a man is playing a guitar.	3.000	NEUTRAL
+364	a dog is playing with a toy.	a dog is eating a doll.	2.250	NEUTRAL
+365	a man is cutting a paper.	a person is tearing paper.	2.583	NEUTRAL
+366	a man is playing a piano.	a guy is peeling a potato.	0.000	NEUTRAL
+367	a man is dancing.	a rat is running.	0.000	NEUTRAL
+368	two boys are talking on the phone.	a woman is talking on a telephone.	1.800	NEUTRAL
+369	a man is playing guitar.	a woman is peeling a tuber.	0.000	NEUTRAL
+370	a woman is slicing an onion.	a women slicing lemons.	1.400	NEUTRAL
+371	a woman is riding a horse.	a man is running on rope.	0.000	NEUTRAL
+372	a man is playing soccer.	a man is drawing some figures.	0.400	NEUTRAL
+373	a woman is peeling an orange.	a man is playing a flute.	0.000	NEUTRAL
+374	a man is bowling.	a kitten is walking.	0.000	NEUTRAL
+375	someone is cracking an egg open.	a man is breaking an egg.	3.000	NEUTRAL
+376	a man is cutting a snake to cook.	a woman is cutting meat.	2.000	NEUTRAL
+377	the man is playing the keyboards.	a man is playing guitar.	2.200	NEUTRAL
+378	a woman is applying eye shadow.	a woman is washing a bowl.	1.200	NEUTRAL
+379	a woman is scraping a carrot.	a man is striking clay pots.	0.000	NEUTRAL
+380	a woman is playing the flute.	a man is playing a keyboard.	1.000	NEUTRAL
+381	a man is riding on a horse.	a woman is riding an elephant.	1.533	NEUTRAL
+382	a man and woman are bollywood dancing.	a man an woman are dancing in the rain.	1.667	NEUTRAL
+383	a woman is cutting flowers.	a man is holding huge sunflowers.	1.000	NEUTRAL
+384	a woman is dancing near a fire.	a woman is cutting a tomatoe.	0.308	NEUTRAL
+385	the man danced in the diner.	the bomb exploded in the desert.	0.000	NEUTRAL
+386	a man is playing flute.	a man is dancing.	0.200	NEUTRAL
+387	american flag is waving.	a american flag is blowing in the wind.	4.200	NEUTRAL
+388	a lion is walking in an enclosed area.	a lion is walking around.	2.600	NEUTRAL
+389	a tiger is walking around his cage.	a tiger walks around aimlessly.	3.000	NEUTRAL
+390	a person pours cooking oil into a pot.	a person is pouring olive oil into a pot on the stove.	3.800	NEUTRAL
+391	a woman is cutting potato.	a woman is riding a horse.	0.750	NEUTRAL
+392	a woman is slicing a lemon.	a man is showing a bread.	0.250	NEUTRAL
+393	a man is making a bed.	a man is speaking to an audience.	0.750	NEUTRAL
+394	a parrot is talking.	a parrot is talking into a microphone.	3.000	NEUTRAL
+395	a woman is playing the flute.	a woman is slicing some tuna.	0.400	NEUTRAL
+396	a person is riding a motorcyle.	a person is chopping an onion.	0.400	NEUTRAL
+397	a man is singing into a microphone.	a man is dancing in the rain.	0.400	NEUTRAL
+398	a man pours rice into a pot.	a man is putting rice in a bowling pot.	4.200	NEUTRAL
+399	the dog is barking at the toy.	a dog is barking at an electronic toy duck.	3.500	NEUTRAL
+400	a woman is adding an egg and stirring.	a woman is mixing an egg in a bowl.	3.500	NEUTRAL
+401	a woman covers a piece of meat with flour.	a woman is seasoning a piece of meat.	3.000	NEUTRAL
+402	a person is slicing some garlic.	a person is dicing a clove of garlic with a knife.	3.750	NEUTRAL
+403	a white cat perched on a small wooden cabinet is looking outside the window.	a cat, perched on a table, looks out the window.	3.400	NEUTRAL
+404	a woman is exercising.	a woman lifts weights.	3.400	NEUTRAL
+405	a man does floor exercises.	a man is exercising.	3.600	NEUTRAL
+406	a child runs into and out of the ocean waves.	a young boy is running toward and from the ocean waves.	3.800	NEUTRAL
+407	a man is slicing a potatoe.	a man is peeling a banana.	1.000	NEUTRAL
+408	a man is playing the piano.	a man is playing a wooden flute.	1.400	NEUTRAL
+409	a guy is riding a horse.	a man is riding a horse in the desert.	3.400	NEUTRAL
+410	someone is playing piano.	a person is playing a keyboard piano.	3.600	NEUTRAL
+411	the woman is putting makeup on the man.	a woman is painting the face of a man.	2.800	NEUTRAL
+412	the woman droppped eggplant into the pan.	a woman puts chopped eggplant into a skillet.	4.000	NEUTRAL
+413	a dog is stealing food from a refrigerator.	the dog took something out of the refrigerator.	3.200	NEUTRAL
+414	a man plays a trumpet.	a man is playing a musical instrument.	3.400	NEUTRAL
+415	a person uses a blowtorch on two cameras.	a person is burning cameras.	2.333	NEUTRAL
+416	a woman is slicing a lemon.	a woman, in a kitchen, peels a lemon.	2.667	NEUTRAL
+417	a tiger trys to climb the wall.	a lion is trying to climb up over a wall.	3.000	NEUTRAL
+418	a man is preparing a hanging rope.	a man is tying a noose.	4.667	NEUTRAL
+419	a woman dances on a stage.	a woman is dancing.	3.200	NEUTRAL
+420	a woman is slicing ginger.	a woman is cutting potatoes.	1.600	NEUTRAL
+421	men are playing soccer.	two teams play soccer.	3.000	NEUTRAL
+422	the girl is riding the horse.	the girl is spraying the plants with water.	0.200	NEUTRAL
+423	a man is putting a knife in a vice.	a man is getting into a car in a garage.	0.800	NEUTRAL
+424	a person is frying.	a person is peeling a potato.	1.200	NEUTRAL
+425	a man is shooting a pistol.	a woman is chopping garlic.	0.800	NEUTRAL
+426	a woman is swinging her arms.	a woman is slicing an onion.	0.800	NEUTRAL
+427	a man is walking outside.	a man is dancing.	0.750	NEUTRAL
+428	a woman is cooking meat.	a man is speaking.	0.000	NEUTRAL
+429	a man dries his hands.	a woman fixes her hair.	0.250	NEUTRAL
+430	a soccer player is kicking the soccer ball into the goal from a long way down the field.	a soccer player kicks the ball into the goal.	3.250	NEUTRAL
+431	a person is scrubbing a zucchini.	a woman is scrubbing a zucchini with a vegetable brush.	4.000	NEUTRAL
+432	a puppy is trying to come out from the sink.	the puppy tried to get out of the tub.	3.000	NEUTRAL
+433	a girl is playing the piano.	a little girl is playing a grand piano on stage.	3.333	NEUTRAL
+434	a man is drawing some figures.	a man is drawing on a digital dry erase board.	3.333	NEUTRAL
+435	the monkey is hanging from the trees.	the monkey swung from branch to branch.	2.000	NEUTRAL
+436	some children are jumping on trampoline.	two boy are playing on a trampoline.	3.000	NEUTRAL
+437	a person is folding a square paper piece.	a person folds a piece of paper.	3.750	NEUTRAL
+438	a woman with a knife is slicing a pepper.	a women slicing green pepper.	4.000	NEUTRAL
+439	a panda bear is chewing on a stick.	a baby panda plays with a stick.	3.000	NEUTRAL
+440	a man is adding oil to car.	a man is putting anti-freeze into a car.	2.000	NEUTRAL
+441	the people are lifting bags.	several people are carrying large bags.	3.750	NEUTRAL
+442	the boy is playing the piano.	the woman is pouring oil into the pan.	0.000	NEUTRAL
+443	a man is talking on the phone.	a man is moon-walking across a store.	0.400	NEUTRAL
+444	a man is slicing a carrot by a machine.	a man is climbing a rope.	0.400	NEUTRAL
+445	a boy played a keyboard.	a person is playing a piano keyboard.	3.200	NEUTRAL
+446	a cat is playing with an antenna.	a boy is playing in the mud.	0.400	NEUTRAL
+447	a woman is slicing pumpkin.	a person is slicing cantaloupe.	2.000	NEUTRAL
+448	a woman is braiding her hair.	a man is riding a motorcycle.	0.000	NEUTRAL
+449	a man is cutting a potato.	a woman is climbing a rock wall.	0.000	NEUTRAL
+450	a woman is feeding a baby.	a man is adding water to pan.	0.000	NEUTRAL
+451	a man is playing a guitar.	a woman is riding a horse.	0.500	NEUTRAL
+452	the people threw the dummy over the cliff edge.	some people are throwing a dummy off a cliff.	4.500	NEUTRAL
+453	a gun is being fired.	a potato is being peeled.	0.500	NEUTRAL
+454	a woman is mixing eggs.	the woman is eating.	0.500	NEUTRAL
+455	a woman is cutting a plastic sheet.	a woman is playing a guitar on streets.	0.500	NEUTRAL
+456	a woman cuts a pineapple.	a woman is slicing a pineapple into pieces.	4.000	NEUTRAL
+457	a woman is adding spices on a meat.	a woman adds ingredients to beef.	3.750	NEUTRAL
+458	a person is adding oil in the pan.	the cook pouring oil into the pan.	4.250	NEUTRAL
+459	a cook seasons some dough.	a man is seasoning some dough in a pan.	3.750	NEUTRAL
+460	a boy is running on a beach.	two boys are playing in the beach.	2.750	NEUTRAL
+461	a baby monkey scratches itself.	the monkey scratched his tummy.	3.250	NEUTRAL
+462	the man is throwing knives at a tree.	a man is throwing blades into a close target outside.	3.000	NEUTRAL
+463	a boy is riding a bike on a gate.	a woman is riding a horse.	0.800	NEUTRAL
+464	the woman is slicing tofu.	the woman is putting on lipstick.	0.400	NEUTRAL
+465	a man is riding on a boat.	a man is tying in the machine.	0.400	NEUTRAL
+466	a woman is folding paper.	a woman is applying eye shadow.	0.400	NEUTRAL
+467	someone is folding a piece of paper.	a person is slicing a small pieces of ginger.	0.250	NEUTRAL
+468	a man is doing a card trick.	a man is squeezing water.	0.250	NEUTRAL
+469	a man is playing the piano.	someone is playing guitar.	0.750	NEUTRAL
+470	a man is lifting weights.	a man is chopping egg plant.	0.250	NEUTRAL
+471	a man is mowing grass.	a guy is mowing the lawn.	4.800	NEUTRAL
+472	a person is mixing water and flour.	a person is hitchhiking on a road.	0.800	NEUTRAL
+473	the two dogs were in the pen.	the cowboy rode his horse in the desert.	0.000	NEUTRAL
+474	a man is riding on one wheel on a motorcycle.	a person is performing tricks on a motorcycle.	3.000	NEUTRAL
+475	a man is serving cake.	a man seasoning quail.	0.750	NEUTRAL
+476	a cat opens a drawer and climbs inside.	a big cat opens a plastic drawer with his paws and then hops inside.	3.750	NEUTRAL
+477	someone is greating a carrot.	a woman is grating an orange food.	2.500	NEUTRAL
+478	a man is opening a box using a knife.	a man is playing a guitar.	0.000	NEUTRAL
+479	a man is kicking oots of water.	a woman is slicing a red pepper.	0.250	NEUTRAL
+480	a man is eating.	a woman is rock climbing.	0.000	NEUTRAL
+481	a puppy is repeatedly rolling from side to side while on its back.	a dog is rolling from side to side.	3.500	NEUTRAL
+482	a young boy sings and plays a guitar.	a kid plays the guitar.	3.250	NEUTRAL
+483	the woman is peeling lemon.	the man is balancing on the wire.	0.400	NEUTRAL
+484	a man is playing the trumpet.	someone is playing with a toad.	0.800	NEUTRAL
+485	a man is standing on a roof top playing a violin.	a man is on a roof dancing.	1.800	NEUTRAL
+486	a dog is looking around	a dog is watching a store counter.	1.600	NEUTRAL
+487	a woman is slicing an onion.	a man is shown slicing a carrot with a knife.	1.200	NEUTRAL
+488	the man drilled holes into the wood.	a man drills wood.	4.200	NEUTRAL
+489	someone is cutting a circle out of a pink sheet of paper.	someone is pouring tomato sauce into a pot of meat.	0.200	NEUTRAL
+490	a man is playing flute.	a man is petting a tied up dog.	0.200	NEUTRAL
+491	a man is placing meat in a bag.	a man is drivong a car.	0.500	NEUTRAL
+492	a girl is eating a cupcake.	a man is playing a trumpet.	0.000	NEUTRAL
+493	a rabbit is sniffing and pawing a stuffed rabbit.	a live rabbit is playing with a stuffed animal bunny.	4.500	NEUTRAL
+494	a man is buttering bread.	a woman is ridint a horse.	0.000	NEUTRAL
+495	a monkey is karate kicking a person.	a monkey pratices martial arts.	2.500	NEUTRAL
+496	a woman is squeezing some cucumber slices.	a woman is getting doused in green slime.	0.750	NEUTRAL
+497	a man is taking out the insides of a green pepper.	someone is removing the seeds from a bell pepper.	4.000	NEUTRAL
+498	a man takes a piece of pepperoni pizza out of a pizza box and puts it on the lid after he closes the box.	the man took a piece of pepperoni pizza out of the box.	2.750	NEUTRAL
+499	the man added vegetables to the broth in the pot.	a man is adding sliced vegetables to a cooking bowl with water.	3.400	NEUTRAL
+500	the man ran and jumped against the wall.	a man jumps into a wall.	3.400	NEUTRAL
+501	a man is playing a cello.	a man is rapidly lifting small weights.	0.400	NEUTRAL
+502	the man is talking.	a man is walking down stairs.	0.400	NEUTRAL
+503	a man tries to feed a mouse to a snake.	a man is teasing a snake with a mouse.	3.200	NEUTRAL
+504	the man is seasoning the sausages.	the man added seasoning to water in a bowl.	2.400	NEUTRAL
+505	a clown is singing and people are dancing.	a clown is singing.	3.000	NEUTRAL
+506	a woman is feeding an aardvark.	a woman is chopping up garlic.	0.400	NEUTRAL
+507	a man shappens a knife.	a man carries a women.	0.500	NEUTRAL
+508	a person is rinsing a steak off with water.	a man is rinsing a large steak.	3.929	NEUTRAL
+509	a boy rode his bike on top of a metal fence.	a bmx biker rides along the top of a fence.	3.000	NEUTRAL
+510	a man is throwing knives at a tree.	a man is showing magic.	1.750	NEUTRAL
+511	a man is playing the drums.	a woman is slicing some leaves.	0.000	NEUTRAL
+512	a woman is brushing her feet.	a woman is chopping an onion.	0.400	NEUTRAL
+513	a man is playing a ukulele.	a man is sitting and playing a small guitar.	2.200	NEUTRAL
+514	girls are walking on the stage.	women models are walking down a catwalk.	2.600	NEUTRAL
+515	a woman is doing weight exercises.	a woman is exercising with a barbell.	3.500	NEUTRAL
+516	a man is peeling a potato.	a man is hiking.	0.500	NEUTRAL
+517	a large bird standing on a table picks up a plastic glass containing liquid and places it in a bowl of something.	a bird picks up a plastic cup containing a liquid with it's beak and puts the cup into a bowl.	3.500	NEUTRAL
+518	a woman is in the rain.	a car is driving along the road.	0.000	NEUTRAL
+519	a woman is hitting a man.	a man is holding a slow loris.	0.000	NEUTRAL
+520	a woman is riding an elephant.	a man is lifting himself.	0.000	NEUTRAL
+521	a man is lifting weights.	a woman is exercising her abs.	1.000	NEUTRAL
+522	a person is riding a jetski in the waves.	a woman is riding a seadoo.	2.000	NEUTRAL
+523	a woman is removing skin from some meat.	a woman is slicing a tomato.	1.200	NEUTRAL
+524	a woman is wearing headphones.	a woman is chopping some shiso leaves.	0.600	NEUTRAL
+525	a kitten is drinking milk from a bowl.	a small child is drinking water from a cup.	0.800	NEUTRAL
+526	a kitten is eating its food from a plate.	a kitten eats some food.	4.000	NEUTRAL
+527	a woman is reading a lifestyle magazine.	a woman is slicing a meat into pieces.	0.500	NEUTRAL
+528	a man is pouring chili into a bowl.	a man opens a can and pours the contents into a bowl.	2.500	NEUTRAL
+529	a man is stirring ingredients in a bowl.	a man is beating two eggs in a bowl with a fork.	2.750	NEUTRAL
+530	the bird ate the food in the tree from a bowl.	a bird is eating from a bowl.	3.250	NEUTRAL
+531	a group of girls are exiting a taxi.	a video clip of rihanna leaving a taxi.	2.000	NEUTRAL
+532	a man breaks cinder blocks on another man.	a woman breaks an egg into a pan.	0.800	NEUTRAL
+533	a woman is seasoning a piece of meat.	a man is loading a rifle with bullets.	0.000	NEUTRAL
+534	a woman is relaxing in a bath tub.	a woman is stabbing a potato with a fork.	0.400	NEUTRAL
+535	a woman is adding oil on fishes.	the woman is cutting potatoes.	0.600	NEUTRAL
+536	a woman is writing something.	a woman is chopping green onions.	0.800	NEUTRAL
+537	a man is chopping coriander leaf.	a man is playing a guitar.	0.800	NEUTRAL
+538	a man takes a slice of pizza.	a man talks on his cell phone.	0.800	NEUTRAL
+539	a man is placing meat inside a plastic bag.	a woman is carrying a wallaby in a bag.	0.400	NEUTRAL
+540	a baby eats his food.	a baby is being fed peas.	3.000	NEUTRAL
+541	a man is slicing a carrot by a machine.	a man is standing in the rain.	0.400	NEUTRAL
+542	a rabbi is talking.	a man is walking on a rope.	0.000	NEUTRAL
+543	a man rides a horse.	a woman rubs a baby's leg.	0.000	NEUTRAL
+544	a man is playing guitar.	smeone is laying down.	0.000	NEUTRAL
+545	a man is slicing a bun.	a man is breaking pots.	0.400	NEUTRAL
+546	a man  is driving a car.	a woman dips a shrimp in batter.	0.000	NEUTRAL
+547	a dog is pawing at a fly in the carpet before it.	the dog played with a bug on the carpet.	3.600	NEUTRAL
+548	a dog is barking.	a jet is flying.	0.231	NEUTRAL
+549	a man is playing a guitar and singing on a stage.	a man is playing the electric guitar.	3.200	NEUTRAL
+550	a monkey is walking on a bed.	a man is riding a horse.	0.000	NEUTRAL
+551	a woman is cooking broccoli.	a man is eating his food.	0.500	NEUTRAL
+552	a man is hitting a boy with flower vase.	a man is cutting a mat.	0.300	NEUTRAL
+553	a boy is playing a piano.	a man is singing and playing a guitar.	1.250	NEUTRAL
+554	a man is frying a tortilla.	a person is performing a card trick.	0.000	NEUTRAL
+555	a woman serving volleyballs over a net.	one woman hands volleyballs to another woman who serves them.	2.750	NEUTRAL
+556	the person is starting a fire.	a person makes fire.	5.000	NEUTRAL
+557	a man is slicing cucumber with a knife.	a man is cooking a tortilla in a skillet.	0.750	NEUTRAL
+558	a man is playing an electronic keyboard.	a band is playing instruments.	1.250	NEUTRAL
+559	the man is mixing whipping cream.	the man is holding a skunk.	0.000	NEUTRAL
+560	a man is playing a violin.	the baby is laughing and crawling.	0.000	NEUTRAL
+561	a man is stirring juice.	a man is peeling an onion.	0.750	NEUTRAL
+562	a man severs the toe of an empty leather boot using a sword.	a man is cutting a boot with a sword.	3.750	NEUTRAL
+563	someone is slicing two uncooked racks of ribs apart.	someone is cutting a piece of meat.	2.333	NEUTRAL
+564	the person is removing the scales from the fish.	a person is descaling a fish.	5.000	NEUTRAL
+565	people are walking in the garden.	one boy is talking with other man.	0.000	NEUTRAL
+566	a young child rides a horse.	the little girl rode a horse.	3.200	NEUTRAL
+567	a person is cutting garlic into pieces with a knife.	someone is putting ingredients into a wok.	0.750	NEUTRAL
+568	a man is folding a piece of paper.	a man is slicing a plastic container with a sword.	0.500	NEUTRAL
+569	the man was pushed into the water.	a man pushes another man into the ocean.	2.500	NEUTRAL
+570	a boy is upset playing video games.	someone is playing a gameboy.	1.750	NEUTRAL
+571	a man makes a call on a cell phone.	a man is making a phone call.	4.000	NEUTRAL
+572	a man is speaking on a phone.	a panda bear is chewing on a stick.	0.000	NEUTRAL
+573	a man is kicking pots of water.	a man is turning foods.	1.333	NEUTRAL
+574	a woman is applying cosmetics to her face.	a woman is putting on makeup.	4.600	NEUTRAL
+575	the man lifted barbells.	a man lifts weights.	4.000	NEUTRAL
+576	two little girls talk on the telephone.	two couple are talking with each other.	1.200	NEUTRAL
+577	a cat gets stuck on a moving ceiling fan.	a cat is swinging on a fan.	4.200	NEUTRAL
+578	the cat is drinking milk.	a white cat is licking and drinking milk kept on a plate.	3.800	NEUTRAL
+579	a woman feeds an animal by hand.	the women are feeding the animal.	3.000	NEUTRAL
+580	a woman is riding a horse on the beach.	a woman is washing a bowl.	0.200	NEUTRAL
+581	a person is chopping an herb.	a man is finely chopping a green substance.	3.000	NEUTRAL
+582	several ferrets climb out of their cage.	ferrets climb down from a shelf.	2.200	NEUTRAL
+583	a woman is collecting tap water in a mug.	a boy is filling a pitcher with water.	1.400	NEUTRAL
+584	a young woman is playing the flute.	a woman is washing off the top of a freezer.	0.000	NEUTRAL
+585	a woman shoots a shotgun.	the woman is shooting a rifle.	2.800	NEUTRAL
+586	a person is whisking eggs in a bowl.	a woman is beating two eggs in a bowl using a wire whisk.	3.800	NEUTRAL
+587	a person is adding chili powder to chili with beans.	the man is adding seasoning to the beans.	3.800	NEUTRAL
+588	a woman rapidly fires a handgun.	a woman is shooting off a gun.	4.400	NEUTRAL
+589	a person is slicing an onion.	a solenodon is walking along the ground.	0.000	NEUTRAL
+590	rocky and apollo creed are running down the beach.	the men are jogging on the beach.	3.000	NEUTRAL
+591	a man is singing while playing the guitar.	a man is stuffing himself full with food.	0.500	NEUTRAL
+592	the dog could not figure out how to get a stick out the doggy door.	a dog is trying to get through his dog door.	2.750	NEUTRAL
+593	a dog is opening a fridge.	a dog closes a refrigerator door.	1.750	NEUTRAL
+594	a woman is mixing eggs in the bowl.	a man is doing push ups.	0.000	NEUTRAL
+595	a boat sails along the water.	the man is playing the guitar.	0.000	NEUTRAL
+596	a woman is holding a dancing baby up.	a woman is abusing her child.	1.000	NEUTRAL
+597	a woman is doing a joker make up on a man.	the girl applied face makeup to a man.	1.800	NEUTRAL
+598	the lady added cheese to the sauce.	a man pours a plate of shredded cheese into a pot of sauce.	1.600	NEUTRAL
+599	a man is giving a lecture on a podium.	a man is delivering a lecture at an event celebrating the game of cricket.	2.333	NEUTRAL
+600	the cat shimmied under the bed.	a cat is crawling upside down under the couch.	2.000	NEUTRAL
+601	an okapi is eating from a tree.	a moose drinks from a sprinkler.	0.333	NEUTRAL
+602	a woman is chopping garlic.	a woman slices a fish.	1.000	NEUTRAL
+603	a man is cutting grass.	a masked man sings.	0.000	NEUTRAL
+604	a man is cutting grass.	a clown is singing.	0.000	NEUTRAL
+605	a boy runs away from his fishing line.	a boy is running in front of fish hanging on fishing rod.	3.000	NEUTRAL
+606	several kids jump up and down on a trampoline.	a man is doing back flips on a trampoline.	1.500	NEUTRAL
+607	the man played haki sak in the office.	the man is seasoning the vegetables.	0.400	NEUTRAL
+608	a man is carrying another man on his back.	a man is taking pictures of ant.	0.400	NEUTRAL
+609	the lady made some slices on the shrimp.	a chef is slicing a shrimp.	2.800	NEUTRAL
+610	a woman is pouring egg into a frying pan.	a man is petting two dogs.	0.167	NEUTRAL
+611	a woman is frying ground meat.	a man is cutting a trunk with an axe.	0.500	NEUTRAL
+612	meat is dropped into a pan.	a woman is putting meat in a pan.	3.250	NEUTRAL
+613	a woman is cutting scallions.	a woman falls on a sand castle.	0.000	NEUTRAL
+614	a man is slam dunking a ball.	a woman is slicing some onions.	0.000	NEUTRAL
+615	a machine is sharpening a pencil.	a girl is riding a bicycle.	0.000	NEUTRAL
+616	a woman is brushing her feet.	the sun is rising behind trees.	0.000	NEUTRAL
+617	a man is cleaning the windows.	a man is driving a car.	0.400	NEUTRAL
+618	someone is mixing a liquid.	a man is playing a guitar.	0.000	NEUTRAL
+619	a person is stirring rice.	a woman is cracking an egg.	1.000	NEUTRAL
+620	three boys in karate costumes are fighting.	three men are practicing karate moves in a field.	1.250	NEUTRAL
+621	a man puts a knife in a vice.	a man is dancing.	0.250	NEUTRAL
+622	a boy plays violin on stage.	a boy is onstage playing the violin.	4.250	NEUTRAL
+623	a woman cuts a pink loaf with a knife.	a man is playing a guitar.	0.118	NEUTRAL
+624	a man is adding pork chops to a pan.	a woman is peeling a potato.	1.000	NEUTRAL
+625	the men are fighting each other.	the man drew on the white paper.	0.400	NEUTRAL
+626	a man is catching a ball.	a cat is rubbing against a baby.	0.000	NEUTRAL
+627	a girl is reading a newspaper.	a chef is peeling a potato.	0.000	NEUTRAL
+628	a slow loris bites a persons fingers.	a small animal is chewing on a finger.	2.500	NEUTRAL
+629	a man is walking along a path through wilderness.	a man is peeling an onion.	0.750	NEUTRAL
+630	the man played his guitar.	a guy is singing while playing his guitar.	3.000	NEUTRAL
+631	swimmers are racing in a lake.	women swimmers are diving in from the starting platform.	1.600	NEUTRAL
+632	some men are skating on the road.	two boys are skate boarding.	2.600	NEUTRAL
+633	a man pours liquid into a pan.	the chef poured oil in the pan.	2.600	NEUTRAL
+634	a boy is playing piano and singing.	a pig is agitating a lion.	0.000	NEUTRAL
+635	a woman is slicing big pepper.	a man is playing an instrument.	0.000	NEUTRAL
+636	a person is boiling noodles.	a cat is licking a bottle.	0.000	NEUTRAL
+637	a cat and a ferret are playing.	a ferret and kitten play together.	4.250	NEUTRAL
+638	a monkey is walking through the water.	a guy is playing a trumpet.	0.000	NEUTRAL
+639	a woman is putting on makeup.	a band is singing.	0.000	NEUTRAL
+640	a person is slicing some onions.	a woman is chopping herbs.	1.000	NEUTRAL
+641	a dog is driving a car.	a guy is talking into a microphone.	0.000	NEUTRAL
+642	the man sang on stage into the microphone.	a man in a suit is standing at a microphone and singing.	3.500	NEUTRAL
+643	a car backs out of a space.	a car is taking reverse.	2.400	NEUTRAL
+644	the animal with the big eyes is eating.	a slow loris is eating.	2.600	NEUTRAL
+645	a man is holding a frog.	a man is emptying a plastic container.	0.600	NEUTRAL
+646	a baby is crawling happily.	a cat is walking on hardwood floor.	0.100	NEUTRAL
+647	a man is traveling in a boat.	a woman is cutting up a carrot with a knife.	0.000	NEUTRAL
+648	the man rode his motorcycle down the highway.	a person is driving a motorcycle on a road.	3.750	NEUTRAL
+649	a tiger club is playing with a ball.	a person is chopping shrimp with a knife.	0.000	NEUTRAL
+650	a man reels in a fish.	a woman is pouring oil in a bowl.	0.000	NEUTRAL
+651	a man is dicing an onion.	the man is playing the guitar.	0.400	NEUTRAL
+652	a man performs on a stage.	a man guts a fish.	0.400	NEUTRAL
+653	the women are sitiing down.	two women are sitting close to each other and talking.	2.600	NEUTRAL
+654	a woman is slicing fruit.	two women are slicing some lemons.	2.000	NEUTRAL
+655	a man removes a couple of toaster scrambles from a plastic packet.	a man removes food from a bag.	1.750	NEUTRAL
+656	the flag was moving in the air.	a flag is waving.	3.750	NEUTRAL
+657	a woman is dancing by a fire.	a man ties a noose.	0.000	NEUTRAL
+658	a man is meditating.	the man is riding the horse.	0.750	NEUTRAL
+659	a woman is cutting an onion.	a horse is standing.	0.000	NEUTRAL
+660	a boy is cutting paper.	a man is loading a rifle.	0.000	NEUTRAL
+661	a lady mixed up a meat mixture in bowl.	a woman is stirring meat in a bowl.	4.000	NEUTRAL
+662	the man talked on the telephone.	girls are walking on the stage.	0.000	NEUTRAL
+663	a man is playing the guitar and singing.	a man is opening a package containing headphones.	0.800	NEUTRAL
+664	the soccer player kicked the ball side to side between his legs.	a person is kicking a soccer ball back and forth between his feet.	3.400	NEUTRAL
+665	the baby laughed in his car seat.	a baby is laughing.	3.100	NEUTRAL
+666	an animal is walking.	a woman is applying eye makeup.	0.000	NEUTRAL
+667	a girl is applying makeup on her face.	a woman is putting on makeup.	2.750	NEUTRAL
+668	someone is scratching an animals belly.	a woman is stroking a lemur.	2.000	NEUTRAL
+669	a man is lifting heavy weights.	a wallaby is licking a woman's hand.	0.250	NEUTRAL
+670	a dog knocks a boy into the water twice.	a dog pushes a toddler into a rain puddle.	2.692	NEUTRAL
+671	a woman puts make-up on.	a woman is putting on eyeshadow.	3.333	NEUTRAL
+672	a boy is playing with a toy.	a boy plays a handheld game.	3.000	NEUTRAL
+673	a man dives off of a cliff.	a man is riding a motorcycle.	0.667	NEUTRAL
+674	a cat plays in his water.	the cat fished a straw out ouf his water dish.	3.500	NEUTRAL
+675	the bird is taking a bath under the faucet.	a bird is bathing in a sink.	4.429	NEUTRAL
+676	a man plays the guitar and sings.	a man is singing and playing a guitar.	5.000	NEUTRAL
+677	a man is coming out into the water.	a man rises from a swamp.	3.200	NEUTRAL
+678	a man and woman dance.	a man is petting a dog.	0.333	NEUTRAL
+679	a man is sweeping the floor of a house using a long broom.	the man swept the empty living room.	3.333	NEUTRAL
+680	a group of couples are dancing.	men and women are dancing slowly.	3.333	NEUTRAL
+681	a man is scaling a fish.	a man pours some cooking oil into a pot.	1.000	NEUTRAL
+682	a person is adding food in a pan.	a man is dancing in the street.	0.188	NEUTRAL
+683	the man set up his camera to take sunset pictures at the beach.	a man is taking pictures of a lake.	2.200	NEUTRAL
+684	a man is smoking.	a baby is sucking on a pacifier.	0.000	NEUTRAL
+685	women are holding each other and dancing together.	two men are playing table tennis.	0.000	NEUTRAL
+686	someone is holding and petting a baby tiger.	someone is rinsing a large beef steak at the kitchen sink.	0.400	NEUTRAL
+687	the man is playing the guitar.	the cat cleaned his face with his paw.	0.000	NEUTRAL
+688	the man did pushups on a wall.	the man tased the food.	0.250	NEUTRAL
+689	a woman cuts up a vegetable.	a woman is slicing egg plant.	2.250	NEUTRAL
+690	a person is putting shredded cheese in a pot.	a hamster is eating some seeds.	0.250	NEUTRAL
+691	the man is trying to feed the snake with a mouse.	a man is working on his laptop.	0.800	NEUTRAL
+692	a person breaks an egg into a small bowl.	a man cracks an egg.	2.600	NEUTRAL
+693	a man is playing keyboards.	a man is riding a mechanical bull.	1.200	NEUTRAL
+694	a dog is running around a yard.	a black pet dog runs around in the garden of a house.	3.200	NEUTRAL
+695	a child is walking down the street as a jeep pulls up.	a woman is walking along a road and a man in a motorcar pulls up beside her.	1.400	NEUTRAL
+696	a man is erasing a chalk board.	a woman is dancing, and singing.	0.364	NEUTRAL
+697	a man is adding oil to a pot.	a dog is catching a fish in a river.	0.200	NEUTRAL
+698	the girl danced in front of the bonfire.	a woman is dancing to music standing near a bonfire.	2.750	NEUTRAL
+699	the man is exercising.	a man is doing pull-ups.	3.200	NEUTRAL
+700	a man is chopping butter into a container.	a woman is cutting shrimps.	0.600	NEUTRAL
+701	a girl is dragged downhill by a dog.	a dog is pulling a child down a hill.	3.800	NEUTRAL
+702	the man took off his sunglasses while talking.	a man wearing a hard hat removes his glasses as he speaks.	3.400	NEUTRAL
+703	the two men did a funny skit with a boxer in front of a crowd of people.	boys are dancing in front of people.	1.500	NEUTRAL
+704	the girl is tiding up her bed.	a woman is making a bed.	2.500	NEUTRAL
+705	someoen is cooking onions.	a man is swinging nunchucks.	0.000	NEUTRAL
+706	the man is using a sledghammer to break the concrete block that is on the other man.	a man breaks a slab of concrete that is lying on a prone man with a sledge hammer.	5.000	NEUTRAL
+707	the lady put the dried noodles in the hot water to cook.	a woman places a container of noodles in a pan of water.	4.333	NEUTRAL
+708	a tiger is playing with his trainer.	a tiger attacks a man.	1.333	NEUTRAL
+709	the girls danced on the stage.	a girl is putting on makeup.	0.333	NEUTRAL
+710	a panda bear is laying down.	a baby panda relaxes on some logs.	3.333	NEUTRAL
+711	two kids are playing in a swimming pool with a green colored crocodile float.	two kids push an inflatable crocodile around in a pool.	4.200	NEUTRAL
+712	a couple of policewomen are singing karaoke.	two women are dancing.	0.800	NEUTRAL
+713	a man is putting broccoli into water.	a person is peeling a potato.	1.000	NEUTRAL
+714	a chimp is kicking a target.	a woman is putting oil into a skillet.	0.000	NEUTRAL
+715	the doctor was helping the patient.	doctors are trying to revive a man.	2.800	NEUTRAL
+716	some is grating onion into water.	a person grates a potato into a bowl.	1.500	NEUTRAL
+717	a cat is playing with a watermelon on a floor.	a man is pouring oil into a pan.	0.000	NEUTRAL
+718	a man is doing exercise.	a baby is laughing.	0.000	NEUTRAL
+719	a cat retrieves an object out of a dish of water.	the cat tried to eat the corn on the cob.	0.600	NEUTRAL
+720	a baby is talking.	a boy is trying to say firetruck.	1.200	NEUTRAL
+721	the girl is carrying a baby.	a man is eating a food.	0.000	NEUTRAL
+722	a chef is slicing carrot.	a person is drawing a picture.	0.000	NEUTRAL
+723	a woman boils eggs.	a woman places two eggs into a pot of water.	3.000	NEUTRAL
+724	a woman puts ingredients in a whisked egg.	a man pours gasoline.	0.000	NEUTRAL
+725	a woman is slicing mango.	a man is putting cheese on a tortilla.	0.600	NEUTRAL
+726	a girl is slicing a butter into two pieces.	a woman is slicing tofu.	1.000	NEUTRAL
+727	several swimmers jump into the water.	swimmers are racing in a lake.	1.750	NEUTRAL
+728	a man is playing the guitar.	a person is slicing a meat into pieces.	0.000	NEUTRAL
+729	a man spins on a surf board.	a man is putting barbecue sauce on chicken.	0.000	NEUTRAL
+730	a man is opening a package containing headphones.	a woman is riding a horse.	0.000	NEUTRAL
+731	a girl is playing a guitar.	a boy is playing a key-board between the people.	1.000	NEUTRAL
+732	a little girl plays the violin on a beach.	the girl sat on the couch to crochet.	0.000	NEUTRAL
+733	a monkey is karate kicking at someone's gloved hand.	a monkey pratices martial arts.	3.500	NEUTRAL
+734	a woman is adding some mushrooms and liquid to a pot.	a young man is playing the guitar.	0.000	NEUTRAL
+735	a man is passionately playing a guitar in front of an audience.	a woman is peeling a potato.	0.000	NEUTRAL
+736	a female applies something to he hair with her hands.	a cat is eating a slice of watermelon.	0.000	NEUTRAL
+737	a young man is riding a skateboard and jumps onto a sidewalk then off at another curb.	a man is riding a skateboard.	2.750	NEUTRAL
+738	a man is karate kicking at another man wearing protective boxing gloves.	a man is kick boxing with a trainer.	2.500	NEUTRAL
+739	someone drew on washington's face on the dollar.	a person draws on a dollar bill.	3.400	NEUTRAL
+740	the girl is slicing an onion.	a woman is chopping an onion into small pieces.	2.200	NEUTRAL
+741	a person dices up an orange pepper.	the cook is slicing bell peppers.	1.800	NEUTRAL
+742	the man is playing the wooden flute.	a little boy is vacuuming the floor.	0.000	NEUTRAL
+743	a young woman is playing a guitar.	a woman cuts up some meat.	0.750	NEUTRAL
+744	the man is aiming a gun.	a boy is playing on a toy phone.	0.000	NEUTRAL
+745	the men are playing soccer.	a man is riding a motorcycle.	0.000	NEUTRAL
+746	two men are dancing together.	a woman opens a closet.	0.000	NEUTRAL
+747	a woman is running on the beach.	a dog is swimming in a pool.	0.000	NEUTRAL
+748	a man is reading an email.	a person opening a banana.	0.000	NEUTRAL
+749	a man is straining pasta.	a man plays a wooden flute.	0.000	NEUTRAL
+750	panda's play on a swing.	a man is playing guitar.	0.800	NEUTRAL

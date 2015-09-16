@@ -1,0 +1,500 @@
+det amod nsubj aux csubj dobj cc det conj aux root advmod
+det nsubj prep det amod pobj aux root dobj prep det pobj
+num nsubj aux root dobj prep det pobj
+det nsubj aux root det dobj
+num nsubj aux root prep pobj prep det amod pobj
+amod nsubj aux root prep amod pobj prep det pobj prep pobj
+nsubj root prep det amod cc conj pobj cc aux conj prep det pobj
+num nsubj aux root prep det pobj
+det nsubj prep pobj aux root
+expl root neg nsubj prep amod pobj
+det nsubj prep pobj prep det amod nn pobj cop root
+det nsubj prep pobj aux root
+det nsubj prep det pobj aux root cc conj
+det nsubj root prep pobj prep det pobj cc aux conj det amod dobj
+det nsubj aux root prep det pobj
+det amod nsubj aux root det dobj
+dep advmod punct amod nsubjpass auxpass root prep pobj
+det nsubj prep pobj prep pobj aux root prep det pobj cc expl conj neg nsubj vmod det dobj
+det amod cc conj nsubj aux root prep det amod pobj
+det amod cc conj nsubj aux root prep det amod cc conj pobj
+det nsubj aux root prep det pobj cc aux conj det dobj
+det nsubj prep pobj aux root prep det pobj
+num nsubj aux root det dobj prep det pobj prep det amod pobj
+det nsubj aux root cc conj det dobj
+det nsubj vmod nn dobj punct amod conj cc det amod conj aux root det dobj
+det nsubj vmod nn dobj punct amod conj cc det amod conj aux root det dobj
+det nsubj aux root dobj nsubj cop rcmod
+det nsubj aux root prt det dobj punct nsubj cop advmod rcmod punct cc conj det amod dobj
+det nsubj aux root prt det dobj advmod vmod prep pcomp cc auxpass conj prep det pobj
+det nsubj aux neg root det dobj prep det nn pobj nsubj rcmod prep det pobj
+num nsubj aux root det dobj prep det pobj
+det nsubj aux root det dobj prep det pobj punct nsubj cop rcmod
+num amod nsubj aux root prep det amod pobj
+det nsubj nsubj cop rcmod cc conj root prep det advmod pobj cc aux conj det dobj prep poss pobj
+det amod nsubj prep det pobj aux root advmod
+det amod nsubj prep det pobj aux root advmod
+det nsubj aux advmod root prep det pobj
+det nsubj punct nsubj cop rcmod punct root prep det amod pobj
+det nsubjpass prep pobj auxpass root prep amod pobj
+num amod nsubj cc num amod conj aux root dobj prep pobj prep det pobj
+neg det nsubj prep pobj root prep det nn nn pobj
+det nsubj prep det amod cc conj pobj aux root
+det nsubjpass aux auxpass root prep det pobj
+det nsubj prep det amod pobj aux root det dobj
+det nsubjpass aux auxpass root prep num pobj nsubj rcmod prep det pobj punct nsubj cop advmod rcmod
+det nsubj aux root prep det pobj prep det pobj vmod prep det pobj
+det nsubj root prep det pobj cc aux conj prep det pobj
+det nsubjpass prep det pobj cc det conj auxpass root prep det pobj
+det nsubj aux neg root prep amod pobj
+det nsubj aux root det dobj
+det nsubj cop root prep det pobj prep det pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root poss dobj
+det nsubj aux root poss dobj
+det nsubj cc det conj aux root prep det amod pobj
+det nsubj cc det conj aux root advmod prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root cc conj advmod
+det nsubj aux root cc conj
+det nsubj cop root cc conj prep amod pobj
+det nsubj aux root prep det pobj
+det nsubj aux root dobj
+det nsubj aux root det amod dobj
+det nsubj aux root prep det pobj
+det nsubj aux root
+det amod nsubj aux root
+det nsubj aux root dobj
+nsubj aux root dobj
+det nsubj aux root prep det pobj
+num amod nsubj aux root punct dep cc conj prep det amod pobj
+num nsubj aux root prt det dobj
+det nsubj aux neg root det dobj prep det pobj
+det nsubj aux root det amod dobj
+det nsubj aux root det dobj
+num nsubj prep amod pobj aux neg root
+num nsubj aux root nn dobj
+det nsubj aux root det dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubjpass aux auxpass root det dobj prep det pobj
+det nsubjpass aux auxpass root prep det pobj prep det pobj
+det nsubj aux root advmod prep det pobj
+det nsubj aux cop root prep det pobj
+det nsubj aux root det dobj vmod prep pobj advmod
+det nsubj aux root det dobj vmod prep pobj
+det nsubjpass aux auxpass root prep det amod pobj prep det pobj
+det nsubj aux root det dobj advmod
+det nsubj aux root det dobj advmod
+det nsubj punct nsubj cop rcmod punct aux advmod root poss dobj prep det nn pobj
+num nsubj aux root prep det pobj
+det nsubjpass prep pobj prep det amod pobj aux auxpass root
+det nsubjpass prep det pobj aux auxpass root prep pobj prep det pobj
+det nsubjpass prep det pobj aux auxpass root prep det pobj
+num nsubj aux root det dobj cc conj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux advmod root dobj prep det pobj
+det nsubj aux root prt det dobj advmod
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det amod nsubj aux root det dobj
+det nsubj prep det pobj root prt aux auxpass dep prep det pobj prep det pobj prep det pobj
+det nsubj aux root prep det pobj
+nsubj aux root prt det dobj
+det nsubj aux root poss dobj prep det pobj
+det nsubj aux root poss dobj
+det nsubj aux root advmod prep det pobj
+det nsubj aux root advmod prep det pobj
+det nsubj aux root det dobj prep det nn pobj
+det nsubjpass aux auxpass root prep det pobj prep det nn pobj
+det nsubj prep det pobj aux root prep det nn pobj
+det nsubj aux root det dobj prep pobj
+det nsubj aux neg root det dobj
+nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+num nsubj aux root prt det dobj
+det nsubj cop root
+det nsubj aux root det dobj
+det amod nsubj aux root prep det pobj
+nsubj aux root cc conj det dobj
+expl root neg nsubj vmod dobj prep det pobj
+det nsubj aux root det dobj
+nsubj aux root det dobj
+num nsubj aux root
+det nn nsubjpass aux auxpass root prep det pobj
+det nsubj cop root det nn dobj
+det nsubj aux neg root det dobj prep det pobj
+det amod nsubj aux root prep pcomp det pobj
+det nsubj aux advmod root prep det pobj prep det pobj
+det nsubj cop nn det root prep det pobj
+det nsubj aux root det dobj prep pobj prep pobj
+nsubjpass aux auxpass root prep pobj prep det pobj
+expl root neg amod nsubj vmod prep det pobj nsubj aux rcmod amod nn dobj
+det nsubj cop nn root prep det pobj
+det nsubj cop nn root prep det pobj
+det nsubj punct nsubjpass auxpass rcmod punct aux root det dobj cc conj det dobj
+det nsubj prep det pobj aux root prep det pobj cc conj det dobj
+det nsubj aux neg root det amod dobj
+det nsubj cc conj aux root
+det nsubj aux root dobj prep pobj prep det pobj
+det nn nsubj punct nsubj cop rcmod punct cop root cc conj det dobj prep pobj prep det pobj
+det amod nn nsubj cop root cc conj det dobj prep pobj prep det pobj
+det nsubj cop root
+det nsubj aux root det dobj prep pcomp det pobj
+det nsubj aux root prep pobj
+det amod nsubj aux root det amod dobj prep pobj
+det nsubj aux root det dobj
+det nsubj aux root dobj
+det nsubj aux root prt dobj
+det nsubj aux root det dobj
+num nsubj aux root prep det nn pobj
+det amod amod nsubj aux root det dobj
+det amod amod nsubj aux root det dobj
+det amod amod nsubj aux root det dobj
+det amod amod nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det amod dobj
+det nsubj aux neg root prep det amod pobj
+det nsubj aux root det dobj cc aux conj prep det pobj nsubjpass auxpass rcmod prep pobj
+det nsubj cop root det amod nn dep
+det nsubj aux root det dobj prep pobj cc aux conj nn dobj prep poss pobj
+expl root neg nsubj vmod det nn dobj cc conj nn dobj prep poss pobj
+det nsubj aux root prep det poss possessive pobj
+det nsubj aux root prt det dobj
+det nsubj aux root prep det pobj
+expl root neg nsubj dep prep det pobj
+det nsubj aux root num dobj prep det pobj prep pobj
+det nsubj aux root det dobj
+det nsubj aux root prep cc conj pcomp det pobj prep det pobj
+det nsubj aux root prt dobj
+det nsubj aux root dobj
+det nsubj aux root det dobj cc conj dobj
+expl root neg nn nsubj prep det nn pobj cc conj det dobj
+det nsubj aux root det dobj
+det nsubj aux root det nn dobj
+det nn nsubj aux root det dobj
+nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det nn dobj prep det pobj
+det nsubj aux root prt det dobj prep det pobj prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root prt det dobj
+det nsubj aux neg root
+nsubj cop amod root prep det pobj
+det nsubj aux root nsubj ccomp
+num nsubj aux root nn dobj
+det nsubj aux root dobj prep det pobj
+nsubj aux root det dobj prep det pobj
+det nsubj aux root det dobj prep pobj
+det nsubj aux root det dobj prep det pobj prep det pobj
+nsubj aux root prep det amod pobj
+nsubj aux root prt det dobj
+det nn nsubj aux root det nn dobj
+det nsubj aux root dobj
+nsubj aux root prep det pobj
+det amod nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj nsubj cop rcmod
+det nsubj aux root prep det pobj prep det pobj
+det nsubj prep det pobj root prep det amod pobj
+det nsubj aux root prep det pobj prep det pobj
+det nsubj aux root prep det pobj prep det pobj
+expl root neg nsubj dep
+det nsubj cop root cc conj det dobj
+det nsubj aux root det dobj
+nsubj aux neg root prep pobj prep det pobj
+det nsubj aux root prep det pobj
+det nsubj aux root det dobj
+expl root neg nsubj dep cc conj det dobj
+det nsubj aux advmod root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root prt det dobj
+det nsubj aux root dobj prep poss pobj
+det nsubj aux root advmod prep det pobj
+det nsubj aux root prep det pobj
+det nsubj aux root dobj prep det pobj
+det nsubj aux root dobj prep det pobj
+num nsubj aux root det dobj
+expl root neg nsubj vmod det dobj
+expl root neg nsubj vmod dobj
+det nsubj aux root prep det pobj
+amod nsubj aux root prep det pobj
+det nsubj aux root det amod dobj
+expl root neg nsubj vmod det dobj
+det nsubj aux root det dobj prep det pobj
+expl root neg nsubj vmod prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root
+det nsubj aux root amod dobj
+det nsubj aux root
+det nsubj aux root
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+num nsubj prep det pobj aux root det dobj prep det pobj
+det nsubj aux root
+det nsubj aux root det nn dobj
+det nsubj aux root det dobj
+expl root neg nsubj vmod det dobj
+expl root neg nsubj vmod det dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det amod dobj prep det pobj
+det nsubj aux root det dobj
+det nsubj prep pobj aux root dobj prep det pobj
+det nsubj cop root det dobj prep det pobj
+det nsubj aux root prep det pobj cc aux conj
+det nsubj aux root det dobj
+expl root neg nsubj xcomp dobj
+expl root neg nsubj vmod det dobj prep det pobj
+det nsubj aux root det poss possessive dobj
+expl root neg nsubj vmod det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj prep pobj
+det nsubj aux root det dobj prep det pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux neg root det dobj
+det nsubj aux root
+det nsubj aux root dobj
+det nsubj cop root cc conj det dobj
+nsubj aux root prep det pobj
+nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det amod nsubj aux root det amod dobj prep poss pobj cc aux conj advmod
+det nsubj aux root prep det pobj
+det nsubj aux root dobj
+det nsubj aux root det dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+num amod nsubj aux root
+num amod nsubj aux root
+det nsubj aux root det dobj prep pobj
+det nsubj aux root dobj prep det pobj
+det nsubj aux root det amod dobj prep pcomp det pobj
+expl root neg nsubj vmod det dobj
+det amod nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det amod dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj aux root det dobj
+det nsubj prep pobj aux root prep det pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root prep det pobj
+det nsubj aux root dobj prep det pobj
+det nsubj aux root det dobj
+det nn nsubj aux root prep det pobj
+det nsubj aux root prep det pobj
+det nsubj aux root det dobj
+det nsubj cop root det dobj
+det nsubj cc det conj aux root prep det pobj prep det pobj
+det nsubj aux root dobj prep det pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux neg root dobj
+det nsubj aux neg root dobj
+nsubjpass aux auxpass root prep det pobj prep det pobj
+det nsubj aux root det dobj prep det pobj
+expl root neg amod nn nsubj prep det pobj
+det amod nsubj prep det amod pobj aux root prep det pobj cc conj prt det amod dobj
+det amod nsubj aux root prep det pobj cc aux auxpass conj prep det pobj
+det nsubj cc det conj root prep det pobj dep dobj punct conj amod amod dobj cc det conj dep prep det pobj
+det nsubj vmod dobj aux root advmod prep det pobj prep det nn pobj
+det amod cc conj nsubj aux root det dobj prep poss pobj
+det amod nsubj vmod det amod dobj aux root prep det amod nn pobj
+num nsubj aux root prep det pobj cc conj det dobj
+det nn nn nsubj aux root advmod cc conj poss dobj prep det pobj
+det nn nn nsubj aux root advmod cc aux advmod conj poss dobj prep det pobj
+det nsubj aux root det dobj prep poss pobj prep det pobj prep pobj
+det nsubj aux root prep det pobj prep pobj prep det pobj punct prep det pobj
+det nsubj aux root prep det pobj prep pobj prep det pobj prep det pobj
+nsubj prep det nn pobj aux root advmod prep det pobj nsubj aux rcmod prep pcomp det pobj
+num nsubj aux root advmod prep det pobj
+det nsubj punct nsubj cop rcmod punct aux root prep det pobj
+det amod nsubj aux root prep det pobj cc poss conj aux dep prt
+det amod nsubj aux root prep amod pobj prep det advmod amod pobj
+det nsubj aux root dobj cc det amod conj cc aux conj
+det amod nsubj aux root det nn nn dobj cc aux conj prep det amod pobj prep det pobj
+det nsubj prep det amod pobj aux root prep det nn pobj cc conj det dobj
+det nsubj aux root prep det amod pobj
+det nsubj aux root det dobj prep amod pobj prep det amod pobj
+det amod nsubj aux root det amod nn dobj cc aux conj
+det nsubj aux neg root prep amod pobj
+det nn nn nsubj aux root det amod dobj cc aux conj det dobj
+det nsubj aux root det amod dobj cc aux conj det dobj prep det nn pobj
+det amod nsubj aux root prep num pobj
+det amod nsubj aux root prep num pobj
+det nsubj aux root prep det amod pobj
+expl root neg amod nsubj prep amod pobj vmod prep det pobj
+det nsubjpass aux auxpass root prep det pobj nsubj rcmod det dobj prep poss pobj
+num amod nsubj aux root amod dobj prep det pobj
+det nsubj amod prep pobj aux root advmod prep det amod pobj prep det nn pobj
+det nsubj punct nsubj cop rcmod punct aux advmod root dobj advmod prep det pobj amod prep pobj
+det amod nsubj prep det amod pobj aux root det amod dobj
+det nsubj prep pobj aux root advmod prep det pobj
+det nsubj aux neg root prep det pobj prep pobj prep det pobj
+det amod amod nsubj cc det amod amod conj aux root prep det amod pobj
+num nsubj aux root prep pobj prep det pobj
+expl root neg nsubj vmod prep pobj xcomp det amod amod dobj
+num nsubj punct nsubj cop rcmod punct aux root prep det nn pobj prep det pobj
+det amod nsubj aux root prep det pobj prep amod pobj
+det nsubj vmod det amod cc conj dobj prep det amod cc conj pobj aux root poss dobj amod cc conj prep pobj nsubjpass auxpass rcmod prep det amod pobj
+det nsubj aux root det dobj prep det pobj prep pobj
+det amod nsubj prep pobj aux root prep det pobj
+det amod nsubj aux root det dobj cc det nn conj
+expl root neg nsubj prep det amod pobj vmod det dobj prep det nn nn pobj
+amod nsubj aux neg root det dobj
+det amod nsubj aux root prep amod pobj
+det nsubj prep pobj nsubj cop rcmod nsubj aux ccomp prep poss pobj root acomp
+det nsubj cc conj aux neg root prep det pobj
+det nn nsubj aux root acomp
+det nsubj prep det amod cc conj nn pobj aux neg root det dobj
+det nsubjpass aux auxpass root prep det pobj prep det pobj
+det nsubj prep nn pobj aux root advmod prep det pobj
+det nsubj prep pobj aux root advmod cc conj prep det pobj
+det amod nsubj aux root prep det pobj prep det pobj prep poss pobj
+expl root neg amod nsubj vmod prep det pobj prep poss pobj amod cc conj dep
+det nsubjpass aux auxpass root prep det pobj prep det nn pobj
+det nsubj aux root det amod dobj nsubj rcmod advmod dobj cc conj cc aux conj det dobj prep det pobj
+amod nsubj aux root det dobj prep det pobj
+det nsubjpass aux auxpass root prep pcomp det amod pobj
+det nsubj aux root prep det pobj prep det pobj prep pobj prep pobj
+det nsubj aux root prep det pobj cc conj acomp
+det amod nsubj aux root det amod cc conj dobj
+det amod nsubj aux root cc det nsubj aux conj prep pobj
+det amod nsubj aux root dobj prep det pobj vmod prep det pobj
+det nsubj aux root det dobj
+det nsubj prep pobj aux root prep det amod pobj
+det nsubj cc num conj prep det amod pobj aux root prep det pobj prep pobj
+det nsubj cc num conj prep det amod pobj aux root prep det pobj prep pobj
+det nsubj prep det amod pobj cc conj cc det conj prep det amod pobj cc conj aux root prep det pobj prep num pobj prep pobj
+det nsubj aux neg root det amod dobj cc aux neg conj det dobj prep pobj prep det pobj prep det amod pobj
+det nsubj aux root nn nn dobj cc aux conj dobj prep det pobj prep poss pobj
+expl root neg nn nsubj prep det amod pobj vmod prep det pobj prep det pobj
+det nn nsubj aux root det amod dobj det amod dep
+det amod nsubj prep det amod pobj aux root prep det pobj
+det amod nsubj prep pobj aux root prep det pobj
+det nsubj prep pobj aux root dobj prep det pobj amod prep pobj
+det nsubj aux root prep det pobj vmod prep pobj nsubj aux rcmod prep poss pobj cc nsubj aux conj prep
+expl root neg amod nsubj dep det amod nn dobj cc conj prep det pobj
+det nsubj prep det pobj aux neg root det dobj prep det amod pobj prep det pobj prep det pobj
+det amod nsubj aux root prep poss pobj prep det pobj
+det nsubj aux root det amod dobj prep det pobj prep det pobj
+expl root neg nsubj vmod det amod dobj prep det pobj prep det pobj
+det nsubjpass prep det pobj aux auxpass root prep poss pobj nsubj aux rcmod det amod dobj
+det nsubjpass prep det pobj aux auxpass root prep poss pobj nsubj aux rcmod det amod dobj
+det nsubj aux root advmod prep det pobj vmod prep pobj
+det nsubj aux root det amod dobj prep amod amod pobj
+det nn nsubj aux root prep det pobj
+num nsubj aux root prep pobj nsubj aux rcmod prep det pobj
+det nsubj prep det amod nn pobj aux root det amod dobj
+num amod nsubj aux root prep det amod pobj cc det nn conj
+det nsubj prep det amod pobj aux root prep det pobj
+det nsubj vmod prep amod pobj root prep det pobj prep pobj cc aux conj prt
+det amod nsubj aux root det nn dobj
+det nsubj prep det amod pobj aux root prep amod pobj
+det nsubj aux root prep det pobj prep det pobj
+det nsubj prep det amod pobj aux root prep amod pobj
+det nsubj aux neg root dobj cc conj aux dep prt
+det amod nsubj aux root dobj amod dep dep dobj punct det amod cc conj amod conj cc conj amod nn dobj prep poss pobj
+det amod nsubj aux root prep det pobj prep det amod pobj
+det nsubj root amod dobj cc conj punct amod dobj prep det pobj cc det conj prep det pobj
+det nsubj root amod dobj cc conj punct amod dobj prep det pobj cc neg conj prep det pobj
+num nsubj aux root det dobj cc det nsubj aux conj prep det pobj prep pobj
+det nsubjpass cc conj auxpass neg root prep det amod nn pobj
+det nsubj aux root dobj prep det pobj
+num nsubj aux root prep pobj
+det nsubj cc conj root prep det amod pobj
+det amod nsubj prep amod pobj aux root advmod prep det amod pobj
+expl root neg nn nn amod nn nsubj prep pobj prep det pobj prep pobj
+det nsubj aux root det dobj prep det pobj
+det nsubj prep det nn pobj aux root det dobj cc conj det amod dep
+det nsubj prep det amod pobj aux root prt det nn dobj
+num amod nsubj punct det amod amod appos cc det amod conj punct aux root prep det amod pobj
+det nsubj prep pobj aux root prt det amod dobj
+det amod nsubj aux root advmod prep det pobj prep det amod pobj
+det nsubj prep neg pobj aux root prep det pobj
+det nsubj prep amod pobj aux root det amod dobj cc aux conj prep det pobj prep det amod pobj prep amod pobj
+det nsubj aux root prep det pobj
+num nsubj aux root prep det nn pobj prep det amod pobj
+det nsubj aux root dobj prep det amod amod pobj
+det amod amod nsubj aux root prep det pobj cc det amod conj aux xcomp prep
+det amod nsubj cc det amod amod cc conj conj aux root prt prep det nn pobj
+det nsubj aux neg root xcomp cc det conj cc det conj dep prep det pobj
+det nsubj cop nn root punct vmod cc conj det dobj
+neg nsubj prep pobj aux root prep det pobj prep det pobj
+det nsubj prep pobj aux root prt prep det pobj
+det nsubj aux root prt det dobj
+det amod cc conj nsubj aux root prep det pobj
+num amod nsubj aux advmod root advmod
+det nsubj prep pobj aux root prep det amod amod pobj
+det nsubj aux root dobj prep det pobj
+det nsubj aux root dobj prep det pobj prep det nn pobj
+det nsubj aux root prep det pobj prep pobj
+det nsubj aux root prep det pobj prep det pobj
+det amod amod nsubj aux root prep det pobj
+det nsubj root prep det pobj cc aux conj prep det pobj
+num nsubj prep amod pobj aux root prep det nn pobj prep det pobj cc det amod nsubj prep amod pobj aux conj prep pobj prep det pobj
+det amod nsubj prep pobj aux root cc nsubj aux conj prep det pobj
+det amod nsubj prep det pobj aux root prep det pobj
+det amod nsubj aux root prt det dobj cc conj prt poss dobj
+num nsubj aux root prep det pobj
+det amod nsubj aux root det amod dobj prep amod pobj
+num amod nsubj aux root dobj cc conj poss amod dobj advmod
+num nsubj aux root prep det nn pobj prep det pobj
+det amod nsubj aux root prep det amod nn pobj
+det nsubj prep det amod pobj aux root prep det pobj advmod
+det amod nsubj prep amod pobj cc conj prep poss pobj aux root prep pobj
+det root prep det pobj nsubj cop dep aux vmod prep det pobj
+det nsubj prep det amod pobj aux root prep det pobj
+det amod amod cc conj nsubj aux root prep det pobj
+det nsubj aux root prep det pobj cc conj det amod nn dobj
+det nsubj prep amod pobj aux root prep pobj prep det pobj prep pobj prep det nn amod pobj
+det nsubj aux root prep det pobj cc auxpass conj prep nn pobj
+det nsubj aux root prep det pobj prep pobj
+det nsubj aux root prep det pobj
+det nsubj prep pobj aux root prep det pobj amod prep det pobj
+det nsubj aux root prt det dobj cc conj det amod dobj
+det nsubj aux root prep det pobj
+det nsubj aux root prt det amod amod dobj
+det nsubj prep pobj aux root prt det dobj cc det nsubj prep det amod pobj conj prep det pobj
+det nsubj aux root det amod dobj
+det nsubj prep det amod amod pobj cc det amod conj aux root prep det amod pobj
+det nsubj aux root prep det nn pobj
+det nsubj vmod prep nn pobj cc det amod conj aux root prep pobj prep nn pobj
+det nsubj root prep det amod pobj prep det pobj nsubjpass aux auxpass dep prt prep det pobj cc amod conj dep prep det pobj
+neg nsubj root prep det pobj nsubj aux ccomp prep det pobj
+det amod cc conj nsubj aux root prep det amod pobj
+det nsubj aux root prep det pobj prep det pobj
+det nsubj aux root prep det pobj prep det pobj
+det nsubj prep num amod pobj aux root prep det pobj prep amod pobj
+det amod amod cc conj amod nsubj aux root prep det pobj prep det pobj
+det nsubj prep det amod nn pobj aux root det dobj cc det nsubj prep det amod pobj aux conj prt
+det amod nsubj aux root prep det pobj cc aux conj det amod dobj cc amod conj
+det nsubj aux root det dobj advmod prep det poss possessive pobj
+det nsubj aux root det amod dobj cc conj dobj prep det nn pobj
+det amod nsubj aux root prep det pobj prep det pobj cc det amod nsubj aux conj dobj
+det amod nsubj aux root prep det pobj prep det pobj cc det amod nsubj aux conj dobj
+det amod cc conj nsubj prep det amod pobj aux root prep det pobj
+det amod cc conj nsubj aux root det amod dobj prep det amod pobj
+det nsubj aux root prep det pobj
+num amod nsubj aux root prt prep det pobj cc nsubj aux conj prt poss dobj
+det amod nsubj aux csubj poss dobj advmod prep det pobj cc det conj aux root prep
+det amod nsubj aux root det nn dobj cc auxpass conj prep pobj
+det nsubj aux root det dobj
+num amod nsubj aux root prep det nn pobj prep det pobj
+det nsubj aux root det amod dobj
+det nsubj prep pobj cc conj aux root det dobj dep
+num nsubj aux root det dobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root dobj prep det amod pobj
+det nsubjpass aux auxpass root prep det pobj
+det nsubj aux root advmod prep det pobj
+det nsubj aux root det amod dobj
+det nsubj cop root prep det pobj
+det nsubj aux root prep det pobj prep pobj
+det amod nsubj aux root det nn dobj prep det nn pobj

@@ -1,0 +1,750 @@
+det nsubj vmod det amod dobj aux root punct
+det nn nsubj aux root prt punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root amod dobj prep det amod pobj punct
+num nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj vmod aux root det dobj punct
+det nsubj aux root dobj punct
+num nsubj aux root punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root det amod dobj cc conj punct
+det nsubj aux root det nn dobj punct
+det nsubj root det dobj prep det pobj punct
+det nsubj root det amod dobj prep det pobj punct
+det nsubj root prt cc conj det nn dobj prep poss pobj punct
+det nsubj aux root det nn dobj punct
+nsubj cop root det dobj prep pobj punct
+det nn nsubj aux root prep det pobj punct
+det nsubj aux root aux xcomp det dobj prep poss pobj punct
+det nsubj aux root poss dobj punct
+det nsubj cop root poss dobj punct
+det amod nsubj aux root prep det pobj punct
+det nsubj aux root punct
+num nsubj root prep pobj vmod dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj root prt det dobj punct
+det nsubj prep pobj aux root dobj prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+nsubj aux root dobj punct
+det nsubj root prt poss dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nn root prep det pobj prep det pobj punct
+det nsubj aux root det amod dobj dep punct
+det nsubj root det poss possessive dobj punct
+det nn nsubj aux root det dobj punct
+det nsubj root det amod dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root cc conj prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prep num pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj cop amod root punct
+det nsubj root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root amod dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det amod dobj punct
+det nsubj aux root det dobj punct
+nsubj aux root prep pobj punct
+det nsubj aux root cc conj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det amod dobj punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root num dobj punct
+det nsubj aux root punct
+det nsubj root det dobj prep det pobj punct
+det amod nsubj root prep det nn pobj punct
+det nsubj cop amod root punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det amod pobj punct
+det nsubj root prep pcomp pobj punct
+det nsubj root det dobj punct
+det root cc nn conj punct
+det nsubj aux root prep det pobj prep det pobj punct
+det nsubj aux root punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prt punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nn nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root det amod dobj punct
+det nsubj aux root prep pobj punct
+det nsubj root poss dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root det dobj punct
+det nsubj root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj cc conj aux root punct
+det nsubj aux root det dobj punct
+det nsubj root prt det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj cop root cc conj det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root punct
+det nsubj root det dobj punct
+num nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det nn dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det nn dobj punct
+num nsubj aux root prep det pobj punct
+det nsubj root prt det amod dobj punct
+det nsubj aux root dobj prep pobj punct
+det amod nsubj aux root det nn dobj punct
+nn nn root mark dep prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj root det dobj punct
+det nsubj aux root prep det pobj punct
+det nn nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj cc conj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj cop root punct
+det nsubj aux root punct
+det nsubj cop root cc conj det dobj punct
+det nsubj aux root prep pobj prep pobj punct
+det nsubj root prt det dobj prep det pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root advmod punct
+det nsubj root cc conj det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prt det dobj punct
+det nsubj aux root det dobj punct
+det nsubj prep pobj aux root prep det pobj punct
+det nsubj cc conj aux root prep det pobj prep det amod nn pobj punct
+det amod nsubj aux root prep det pobj punct
+det nsubj aux root dobj punct
+num nsubj aux root prep det pobj punct
+det nsubj aux root prep det nn pobj punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det nn dobj punct
+nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj root det dobj punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep poss pobj punct
+det nn nn root punct
+det nsubj vmod prep det pobj prep det pobj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root prep det amod pobj punct
+det nsubj root prep pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj vmod prep det pobj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nn root det dep punct
+det nsubj aux root dobj prep det poss possessive pobj punct
+det amod nsubj aux root prt det dobj punct
+det nsubj root dobj prep det nn pobj punct
+det nsubj aux root det dobj punct
+det amod nsubj cop root punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj cc conj aux root dobj prep pobj prep det amod pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root prt det nn dobj punct
+det nsubj aux root punct
+num nsubj root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep pobj punct
+det nsubj aux root dobj prep pobj punct
+det nsubj aux root det dobj prep pobj punct
+det nsubj prep pobj aux root punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj prep det pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nn root prep det pobj prep pobj punct
+num nsubj aux root advmod punct
+det nsubj aux root prep pobj punct
+det nsubj aux root cc conj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj root det dobj punct
+num nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj cop root prep pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root cc amod conj punct
+nsubj aux root dobj prep pobj punct
+det nsubj aux root dobj prep pobj punct
+det amod nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj prep pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj cc det conj aux root prep det pobj punct
+det nsubj cc conj aux root prep det pobj punct
+det nsubj aux root det nn dobj punct
+det amod nsubj cop root mark advcl det dobj punct
+det nsubj cop root mark advcl det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det amod nsubj aux root nn dobj punct
+det nsubj aux root poss dobj punct
+det amod nsubj aux root prep det amod pobj punct
+det amod amod nsubj root det dobj punct
+nsubj aux root det dobj prep det pobj prep pobj punct
+det nsubj aux root det dobj punct
+nsubj aux root prep det pobj punct
+det nsubj aux root det dobj prep det pobj punct
+det root vmod det dobj aux vmod prt det dobj punct
+det nsubj aux root dobj punct
+det nsubj prep pobj aux root det dobj punct
+det nsubj aux root det dobj punct
+nsubj aux root det dobj punct
+nsubj aux root det dobj punct
+nsubj aux root dobj punct
+det nsubj aux root prep det amod pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prep det pobj punct
+num nsubj aux root dobj punct
+det amod nsubj aux root prt det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root dobj prep det pobj prep amod pobj punct
+det nsubj aux root prep pobj punct
+nsubj aux root det dobj prep pobj prep det pobj punct
+det nsubj root amod dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root punct
+nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root punct
+det nsubj root det amod dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root det dobj punct
+nsubj aux root prt punct
+det nsubj aux root dobj punct
+det nsubj aux root punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep det amod pobj punct
+nsubj root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj cop amod root prep det pobj punct
+nsubj aux root dobj punct
+nsubj aux root punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep pcomp det amod pobj punct
+nsubj aux root det nsubj ccomp punct
+det root amod dep prep det pobj punct
+det nsubj root det dobj punct
+det nsubj aux root cc conj det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root prep det pobj punct
+det nsubj prep pobj root prt det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root dobj prep pobj punct
+det nsubj aux root dobj prep poss pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det amod nsubj aux root prep det pobj punct
+det nsubj cop root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root dobj punct
+det nsubj aux root prep pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep det amod pobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep det nn pobj punct
+det nsubj aux root dobj aux xcomp punct
+det amod nsubj aux root prt det nn dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det amod pobj punct
+det nsubj root prep det pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root poss dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det amod dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj prep poss pobj punct
+det nsubj root prt det amod dobj punct
+det nsubj cop amod root punct
+det nsubj aux root det dobj punct
+det nsubj prep det pobj root det dobj punct
+det nsubj root cc conj poss dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nn root amod dep prep det pobj punct
+nsubj aux root punct
+det nn nn root punct
+num nsubj aux root dobj cc conj advmod punct
+nn root npadvmod prep pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prep det pobj punct
+det nn root det dep prep det pobj prep pobj punct
+det nsubj aux root prep nn pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj root prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj cop root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root cc conj punct
+det nn root punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nn root det dep punct
+det nsubj aux root dobj advmod punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj prep pobj prep pobj punct
+det nsubj aux root prep det pobj prep det pobj punct
+det nsubj aux root det dobj prep det pobj prep det pobj punct
+det nsubj aux root punct
+det nn root prep det pobj prep det pobj punct
+det nsubj root prep det pobj punct
+det amod nsubj root prep det pobj punct
+det nsubj root prt det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det nn dobj punct
+num nsubj root nn dobj prep det pobj punct
+det nsubj aux root punct
+det root vmod det amod dobj
+det nsubj aux root det amod dobj punct
+nsubj aux root dobj prep pobj punct
+det nsubj prep pobj aux root punct
+det nsubj aux root amod dobj punct
+nsubj aux root det dobj dep prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root poss dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root poss dobj punct
+det nsubj aux root det amod dobj punct
+det nsubj root dobj prep pobj prep det pobj punct
+det amod nsubj aux root prep pobj punct
+det nn nsubj aux root det amod dobj punct
+det nsubj aux root advmod prep pobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj prep pobj punct
+det nsubj root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubjpass auxpass root prep det nn pobj punct
+nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj root det amod dobj prep det pobj punct
+det nsubj aux root punct
+det nsubj aux root punct
+det nsubj root det dobj prep det pobj punct
+det advmod amod nn nsubj aux root prep det amod pobj punct
+det nsubj aux root dobj punct
+det nsubj root prep det amod pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep det pobj cc conj punct
+det nsubj aux root prt det amod dobj punct
+num nsubj aux root prep det pobj punct
+det nsubj root prep det pobj punct
+det nsubj root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj punct
+det nsubj root punct
+det nsubj aux root prep det pobj prep det pobj prep pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det amod nsubj aux root dobj prep det pobj prep det pobj punct
+det nsubj aux root prep det pobj punct
+det root vmod dobj prep det amod pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubjpass auxpass root advmod prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj root advmod prep det pobj punct
+det nsubj aux root det dobj punct
+num nsubj aux root nn dobj punct
+det nsubj aux root det nn dobj punct
+det nsubj aux root dobj prep pobj punct
+det nsubj cop nn nn root punct
+det nsubj aux root prt det dobj punct
+det nsubj root det amod dobj prep amod pobj punct
+det nsubj root det dobj punct
+det nsubj cop root mark advcl prt det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prt dobj punct
+det nsubj aux root prep pobj punct
+det nsubj aux root prep pobj amod dep dep dobj punct
+det nsubj aux root nn dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root poss dobj prep det pobj punct
+det nsubj root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root prt punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+amod nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root dobj prep det nn pobj punct
+det root cc det nsubj conj dobj punct
+det nsubj aux root det nn dobj punct
+det nsubj cop root vmod prep det pobj punct
+nsubjpass auxpass root prep advmod amod pobj punct
+det nsubj root prep det amod pobj punct
+det nsubj cop amod root punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nn root dep punct
+det nsubj aux root punct
+det nsubj aux root det dobj cc conj punct
+det nsubj root poss dobj prep det pobj punct
+det nsubj aux root prt dobj prep pobj punct
+det nsubj aux root det iobj det dobj punct
+det nsubj root det nn dobj punct
+det nsubj cop root punct
+det nsubj aux root prep det pobj prep pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root prep det pobj punct dep cc conj det dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det nn dobj punct
+num nsubj aux root xcomp det dobj prep amod pobj punct
+det nsubj cc conj aux root punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj cop root cc conj punct
+nsubj root prep det pobj punct
+det nsubj aux root prep pobj punct
+det nsubj aux root dobj prep det pobj punct
+det root vmod det dobj punct
+det nsubj aux root dobj punct
+det nsubj vmod aux root det dobj cc conj det dobj advmod punct
+det nsubj aux root dobj punct
+det nsubj root prt det dobj punct
+det nsubj aux root det dobj punct
+det nsubj root dobj prep det pobj punct
+det nsubj aux root dobj punct
+det nsubj aux root punct
+num nsubj aux root dobj punct
+det nsubj root poss dobj punct
+det nsubj root dobj prep det pobj punct
+det amod nsubj prep pobj aux root prep det pobj punct
+nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det amod dobj punct
+det nsubj aux root det nn dobj prep poss pobj punct
+det nsubj aux root det dobj prep pcomp nsubj cop pcomp punct
+det nsubjpass prep pobj aux auxpass root punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj punct
+det nsubj root aux xcomp det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep pobj prep amod pobj punct
+det nsubj aux root det amod dobj prep det amod pobj punct
+det nsubj root det nn dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nn nsubj root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj cop root punct
+det nsubj prep det pobj root det dobj punct
+nsubj cop root punct
+det nn nn nsubj det root punct
+det nsubj aux root dobj prep det amod pobj punct
+det nn root prep pcomp det poss possessive pobj punct
+det nn root det dep prep pobj prep det pobj punct
+det nsubj aux root det dobj prep amod pobj prep pcomp det pobj punct
+det nsubj aux root det nn dobj punct
+num nsubj aux root prt det dobj punct
+det nsubj root dobj prep det nn pobj punct
+det nsubj root poss dobj prep det pobj punct
+nsubj root amod dobj prep det pobj prep nn pobj punct
+det nsubj aux root det amod dobj punct
+det amod nsubj aux root prep det pobj punct
+det nsubj aux root prt nn dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prep det pobj prep pobj prep nsubj pcomp advmod punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj prep det pobj prt punct
+det amod nsubj root prep det pobj punct
+det nsubj aux root prep det pobj punct
+det amod nsubj aux root punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj root det dobj punct
+det nn nsubj cop root prep pobj punct
+det nsubj aux root det nn dobj prep poss pobj punct
+det nsubj aux root prep det nn pobj punct
+det nsubjpass aux auxpass root punct
+det nsubj aux root prt dobj punct
+det nsubj aux root poss nn dobj punct
+det nsubj root poss dobj prep nn pobj punct
+nsubj prep det nn pobj aux root det dobj prep pobj punct
+det nsubj aux root poss dobj prep det pobj punct
+det nsubj aux root prep amod pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj punct
+num nsubj cop root punct
+amod nsubj prep pobj aux root dobj prep det pobj punct
+det nsubj aux root prep det pobj punct
+nsubj aux root det dobj punct
+det nn root det nn dep prep det pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root punct
+det nsubj cc cc conj aux root advmod punct vmod dobj punct
+nsubj aux root advmod punct
+det nsubj aux root prep det amod pobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root amod dobj prep pobj punct
+det nn cc conj nsubj aux root punct
+det nsubj root det dobj prep pcomp poss dobj punct
+det nsubj aux root prep nn pobj punct
+det nsubj cop root prep det pobj punct
+det nsubj root prep det pobj prep det pobj punct
+det nsubj aux root dobj prep det nn pobj punct
+det nsubj vmod det dobj aux root prep det pobj vmod prep pobj punct
+nsubjpass prep pobj auxpass root prep det nn pobj punct
+det nsubj cc det conj root advmod punct
+det nsubj aux root prep det pobj amod punct
+det nsubj aux root dobj prep amod pobj cc amod conj prep pobj punct
+det root amod dep punct
+det nsubj aux root prt punct
+det nsubj aux root amod dobj prep det pobj prep det pobj punct
+det nsubj aux root punct
+det nsubjpass aux auxpass root punct
+det nsubj prep pobj root prep det pobj punct
+det amod nsubj cop root prep det pobj punct
+det nsubj root acomp prep poss pobj punct
+det nsubj aux root dobj punct
+det nsubj root det amod amod dobj advmod punct
+det nsubj root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj root poss dobj punct
+det nsubj cop amod root punct
+det nsubj aux root prep det pobj punct
+det nn nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root nn dobj punct
+det nsubj aux root dobj prep det pobj punct
+det nsubj root dobj prep pcomp det pobj punct
+nsubj aux root det dobj punct
+det nsubjpass aux auxpass root punct
+det nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root det dobj prep det pobj punct
+det nsubj aux root prt det dobj punct
+det nsubj aux root prep det pobj punct
+det amod nsubj aux root poss dobj prep det nn pobj punct
+det nn root dep prep amod pobj punct
+det nsubj aux root dobj punct
+det nsubj root cc conj det dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root det amod dobj cc conj prep det pobj punct
+det amod nsubj root prep det amod pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj root prt det amod dobj prep amod pobj punct
+det nsubj root dobj prep det pobj punct
+det nsubj aux root prep det pobj vmod det dobj prep nn pobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root punct
+det nsubj aux root det dobj punct
+det nsubj root dobj prep det pobj punct
+det nsubj aux root det amod dobj punct
+det nsubj root det amod dobj punct
+det nsubj aux root num nn dobj punct
+det nsubj aux root det dobj punct
+det nsubj aux root prep det pobj punct
+det amod root vmod prep det pobj punct
+det nsubj aux root prep pobj prep det pobj punct
+det nsubj aux root det amod dobj prep det nn pobj punct
+det nsubj aux root amod dobj prep det pobj punct
+det nsubj aux root amod dobj prep pobj punct
+det nsubj aux root prep det poss possessive pobj punct
+det nn nsubj root det dobj punct
+num amod nsubj root advmod mark det nsubj advcl prep pobj punct
+det nsubj aux root det dobj punct
+det nsubj root prep poss pobj cc conj punct
+nsubj aux root dobj punct
+det nsubj aux root dobj punct
+det nsubj aux root det dobj prep det nn pobj punct
+det amod root vmod det dobj punct
+det nsubj cc conj aux root advmod punct
+det nsubj root prep det pobj punct
+det nsubj aux root advmod punct
+det nsubj root det dobj punct
+det nsubj aux root prep det pobj punct
+det nsubj aux root amod dobj punct
+det nsubj aux root poss dobj punct
