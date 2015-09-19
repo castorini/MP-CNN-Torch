@@ -31,7 +31,7 @@ function similarityMeasure.read_sentences(path, vocab)
   return sentences
 end
 
-function similarityMeasure.read_relatedness_dataset(dir, vocab)
+function similarityMeasure.read_relatedness_dataset(dir, vocab, task)
   local dataset = {}
   dataset.vocab = vocab
   dataset.lsents = similarityMeasure.read_sentences(dir .. 'a.toks', vocab)
@@ -43,8 +43,13 @@ function similarityMeasure.read_relatedness_dataset(dir, vocab)
   dataset.labels = torch.Tensor(dataset.size)
   for i = 1, dataset.size do
     dataset.ids[i] = id_file:readInt()
-    dataset.labels[i] = 0.25 * (sim_file:readDouble() - 1) -- sic data
-    --dataset.labels[i] = (sim_file:readDouble()) -- twitter seme data!! and mspr data
+    if task == 'sic' then
+    	dataset.labels[i] = 0.25 * (sim_file:readDouble() - 1) -- sic data
+    elseif task == 'vid' then
+	dataset.labels[i] = 0.2 * (sim_file:readDouble()) -- vid data
+    else
+    	dataset.labels[i] = (sim_file:readDouble()) -- twi and msp
+    end
   end
   id_file:close()
   sim_file:close()

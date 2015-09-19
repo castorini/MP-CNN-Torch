@@ -53,10 +53,10 @@ model_structure = model_name
 
 torch.seed()
 --torch.manualSeed(123)
-print('<torch> using the automatic seed: ' .. torch.initialSeed())
+print('<torch> using the specified seed: ' .. torch.initialSeed())
 
 -- directory containing dataset files
-local data_dir = 'data/sick/'
+local data_dir = 'data/msrvid/'
 
 -- load vocab
 local vocab = similarityMeasure.Vocab(data_dir .. 'vocab-cased.txt')
@@ -86,7 +86,7 @@ print('unk count = ' .. num_unk)
 emb_vocab = nil
 emb_vecs = nil
 collectgarbage()
-local taskD = 'sic'
+local taskD = 'vid'
 -- load datasets
 print('loading datasets')
 local train_dir = data_dir .. 'train/'
@@ -94,17 +94,14 @@ local dev_dir = data_dir .. 'dev/'
 local test_dir = data_dir .. 'test/'
 local train_dataset = similarityMeasure.read_relatedness_dataset(train_dir, vocab, taskD)
 local dev_dataset = similarityMeasure.read_relatedness_dataset(dev_dir, vocab, taskD)
-local test_dataset = similarityMeasure.read_relatedness_dataset(test_dir, vocab, taskD)
 printf('num train = %d\n', train_dataset.size)
 printf('num dev   = %d\n', dev_dataset.size)
-printf('num test  = %d\n', test_dataset.size)
 
 -- initialize model
 local model = model_class{
   emb_vecs   = vecs,
   structure  = model_structure,
-  num_layers = args.layers,
-  mem_dim    = args.dim,
+  mem_dim    = 150,
   task       = taskD,
 }
 
@@ -132,33 +129,17 @@ local best_dev_model = model
 
 header('Training model')
 
-local id = 10005
+local id = 2007
 print("Id: " .. id)
 for i = 1, num_epochs do
   local start = sys.clock()
   print('--------------- EPOCH ' .. i .. '--- -------------')
   model:trainCombineOnly(train_dataset)
   print('Finished epoch in ' .. ( sys.clock() - start) )
-  
+
   local dev_predictions = model:predict_dataset(dev_dataset)
   local dev_score = pearson(dev_predictions, dev_dataset.labels)
-  printf('-- dev score: %.5f\n', dev_score)
-
-  if dev_score >= best_dev_score then
-    best_dev_score = dev_score
-    local test_predictions = model:predict_dataset(test_dataset)
-    local test_sco = pearson(test_predictions, test_dataset.labels)
-    printf('[[BEST DEV]]-- test score: %.4f\n', pearson(test_predictions, test_dataset.labels))
-
-    local predictions_save_path = string.format(
-	similarityMeasure.predictions_dir .. '/results-%s.%dl.%dd.epoch-%d.%.5f.%d.pred', args.model, args.layers, args.dim, i, test_sco, id)
-    local predictions_file = torch.DiskFile(predictions_save_path, 'w')
-    print('writing predictions to ' .. predictions_save_path)
-    for i = 1, test_predictions:size(1) do
-      predictions_file:writeFloat(test_predictions[i])
-    end
-    predictions_file:close()
-  end
+  printf('-- score: %.5f\n', dev_score)
 end
 print('finished training in ' .. (sys.clock() - train_start))
 

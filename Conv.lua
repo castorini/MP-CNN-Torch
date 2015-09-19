@@ -14,7 +14,7 @@ function Conv:__init(config)
   self.reg           = config.reg           or 1e-4
   self.structure     = config.structure     or 'lstm' -- {lstm, bilstm}
   self.sim_nhidden   = config.sim_nhidden   or 150
-	self.task          = config.task          or 'sic'  -- or 'vid'
+  self.task          = config.task          or 'sic'  -- or 'vid'
 	
   -- word embedding
   self.emb_vecs = config.emb_vecs
@@ -23,19 +23,17 @@ function Conv:__init(config)
   -- number of similarity rating classes
   if self.task == 'sic' then
     self.num_classes = 5
-	elseif self.task == 'vid' then
-	  self.num_classes = 6
-	else
-		error("not possible task!")
-	end
+  elseif self.task == 'vid' then
+    self.num_classes = 6
+  else
+    error("not possible task!")
+  end
 	
   -- optimizer configuration
   self.optim_state = { learningRate = self.learning_rate }
 
   -- KL divergence optimization objective
   self.criterion = nn.DistKLDivCriterion()
-  --self.criterion = nn.ClassNLLCriterion() 
-  --self.criterion = nn.MultiMarginCriterion()
   
   ----------------------------------------Combination of ConvNets.
   dofile 'models.lua'
@@ -48,31 +46,32 @@ function Conv:__init(config)
   self.length = self.emb_dim
   self.convModel = createModel(modelName, 10000, self.length, self.num_classes, self.ngram)  
   self.softMaxC = self:ClassifierOOne()
-      
+
   ----------------------------------------
   local modules = nn.Parallel()
     :add(self.convModel) 
     :add(self.softMaxC) 
   self.params, self.grad_params = modules:getParameters()
+  --print(self.params:norm())
+  --print(self.convModel:parameters()[1][1]:norm())
+  --print(self.softMaxC:parameters()[1][1]:norm())
 end
 
 function Conv:ClassifierOOne()
-	local maxMinMean = 3
-	local separator = (maxMinMean+1)*self.mem_dim
-	local modelQ1 = nn.Sequential()	
-	--local inputNum = self.num_layers*separator+(maxMinMean+1)*2*self.num_layers
-	local ngram = self.ngram
-	local items = (ngram+1)*3  		
-	--local items = (ngram+1) -- no Min and Mean
-	local NumFilter = self.length --300
- 	local conceptFNum = 20	
-	--inputNum = 2*items*items/3+NumFilter*items*items/3+6*NumFilter -- + inputNum --only conv Poin model
-	inputNum = 2*items*items/3+NumFilter*items*items/3+6*NumFilter+(2+NumFilter)*2*ngram*conceptFNum --PoinPercpt model!
-	modelQ1:add(nn.Linear(inputNum, self.sim_nhidden))
-	modelQ1:add(nn.Tanh())	
-	modelQ1:add(nn.Linear(self.sim_nhidden, self.num_classes))
-	modelQ1:add(nn.LogSoftMax())	
-	return modelQ1
+  local maxMinMean = 3
+  local separator = (maxMinMean+1)*self.mem_dim
+  local modelQ1 = nn.Sequential()	
+  local ngram = self.ngram
+  local items = (ngram+1)*3  		
+  --local items = (ngram+1) -- no Min and Mean
+  local NumFilter = self.length --300
+  local conceptFNum = 20	
+  inputNum = 2*items*items/3+NumFilter*items*items/3+6*NumFilter+(2+NumFilter)*2*ngram*conceptFNum --PoinPercpt model!
+  modelQ1:add(nn.Linear(inputNum, self.sim_nhidden))
+  modelQ1:add(nn.Tanh())	
+  modelQ1:add(nn.Linear(self.sim_nhidden, self.num_classes))
+  modelQ1:add(nn.LogSoftMax())	
+  return modelQ1
 end
 
 function Conv:trainCombineOnly(dataset)
@@ -92,7 +91,14 @@ function Conv:trainCombineOnly(dataset)
     -- get target distributions for batch
     local targets = torch.zeros(batch_size, self.num_classes)
     for j = 1, batch_size do
-      local sim = dataset.labels[indices[i + j - 1]] * (self.num_classes - 1) + 1
+      local sim  = -0.1
+      if self.task == 'sic' or self.task == 'vid' then
+        sim = dataset.labels[indices[i + j - 1]] * (self.num_classes - 1) + 1
+      elseif self.task == 'others' then
+        sim = dataset.labels[indices[i + j - 1]] + 1 
+      else
+	error("not possible!")
+      end
       local ceil, floor = math.ceil(sim), math.floor(sim)
       if ceil == floor then
         targets[{j, floor}] = 1
@@ -111,8 +117,8 @@ function Conv:trainCombineOnly(dataset)
         local linputs = self.emb_vecs:index(1, lsent:long()):double()
         local rinputs = self.emb_vecs:index(1, rsent:long()):double()
     		
-   		local part2 = self.convModel:forward({linputs, rinputs})
-   		local output = self.softMaxC:forward(part2)
+   	local part2 = self.convModel:forward({linputs, rinputs})
+   	local output = self.softMaxC:forward(part2)
 
         loss = self.criterion:forward(output, targets[1])
         train_looss = loss + train_looss
@@ -140,11 +146,11 @@ function Conv:predictCombination(lsent, rsent)
   local output = self.softMaxC:forward(part2)
   local val = -1.0
   if self.task == 'sic' then
-  	val = torch.range(1, 5):dot(output:exp())
+    val = torch.range(1, 5, 1):dot(output:exp())
   elseif self.task == 'vid' then
-  	val = torch.range(1, 6):dot(output:exp())
+    val = torch.range(0, 5, 1):dot(output:exp())
   else
-  	error("not possible task")
+    error("not possible task")
   end
   return val
 end
@@ -152,30 +158,17 @@ end
 -- Produce similarity predictions for each sentence pair in the dataset.
 function Conv:predict_dataset(dataset)
   local predictions = torch.Tensor(dataset.size)
-  --local classes = {1,2}
-  --local confusion = optim.ConfusionMatrix(classes)
-  --confusion:zero()
   for i = 1, dataset.size do
-    --xlua.progress(i, dataset.size)
     local lsent, rsent = dataset.lsents[i], dataset.rsents[i]
     predictions[i] = self:predictCombination(lsent, rsent)
-    --confusion:add(predictions[i], dataset.labels[i])
   end
---  confusion:updateValids()
---  print(confusion)
---  print("TP: " .. confusion.mat[2][2] .. " " .. confusion.mat[2][1] .. " ".. confusion.mat[1][2])
---  local F1=2*confusion.mat[2][2]/(2*confusion.mat[2][2]+confusion.mat[2][1]+
---  confusion.mat[1][2])
---  print("F1 score: " .. F1 .. "\n")
   return predictions
 end
 
 function Conv:print_config()
   local num_params = self.params:nElement()
-  --local num_sim_params = self:new_sim_module():getParameters():nElement()
 
   print('num params: ' .. num_params)
-  --print('num compositional params: ' .. (num_params - num_sim_params))
   print('word vector dim: ' .. self.emb_dim)
   print('LSTM memory dim: ' .. self.mem_dim)
   print('regularization strength: ' .. self.reg)
@@ -186,9 +179,6 @@ function Conv:print_config()
   print('sim module hidden dim: ' .. self.sim_nhidden)
 end
 
---
--- Serialization
---
 function Conv:save(path)
   local config = {
     batch_size    = self.batch_size,

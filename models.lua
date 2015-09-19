@@ -84,24 +84,26 @@ function createModel(mdl, vocsize, Dsize, nout, KKw)
     local conCon1 = nn.Sequential()
     local conCon2 = nn.Sequential()
     local conCon3 = nn.Sequential()
+    local conCon4 = nn.Sequential()
 
     local parallelConcat1 = nn.Concat(1)
     local parallelConcat2 = nn.Concat(1)
     local parallelConcat3 = nn.Concat(1)
+    local parallelConcat4 = nn.Concat(1)
+    local parallelConcat5 = nn.Concat(1)
 
     local D     = Dsize --opt.dimension
     local kW    = KKw --opt.kwidth
     local dW    = 1 -- opt.dwidth
     local noExtra = false
-	local nhid1 = 250 --opt.nhid1 
+    local nhid1 = 250 --opt.nhid1 
     local nhid2 = 250 --opt.nhid2
     local NumFilter = D
     local pR = 2 --opt.pR
-	local layers=1
+    local layers=1
 	    
-	if mdl == 'deepQueryRankingNgramSimilarityOnevsGroupMaxMinMeanLinearExDGpPoinPercpt' then
+    if mdl == 'deepQueryRankingNgramSimilarityOnevsGroupMaxMinMeanLinearExDGpPoinPercpt' then
 		dofile "PaddingReshape.lua"
-		dofile "CsDis.lua"
 		
 		deepQuery=nn.Sequential()
    		D = Dsize 
