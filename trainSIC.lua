@@ -1,6 +1,6 @@
 --[[
   Training script for semantic relatedness prediction on the SICK dataset.
-  We Thank Kaitai Change to provide a basis code for this. Our modifications are based on his.
+  We Thank Kai Sheng Tai for providing the preprocessing/basis codes. 
 --]]
 
 require('torch')
