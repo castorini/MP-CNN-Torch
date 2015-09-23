@@ -51,8 +51,8 @@ model_name = 'convOnly'
 model_class = similarityMeasure.Conv
 model_structure = model_name
 
-torch.seed()
---torch.manualSeed(123)
+--torch.seed()
+torch.manualSeed(-3.0753778015266e+18)
 print('<torch> using the automatic seed: ' .. torch.initialSeed())
 
 -- directory containing dataset files
