@@ -109,7 +109,7 @@ local model = model_class{
 }
 
 -- number of epochs to train
-local num_epochs = 35
+local num_epochs = 30
 
 -- print information
 header('model configuration')
