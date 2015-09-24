@@ -28,7 +28,7 @@ Running
 ------------
 
 - Command to run (training, tuning and testing all included): 
-``th trainSIC.lua`` or ``th trainMSRVID.lua``
+- ``th trainSIC.lua`` or ``th trainMSRVID.lua``
 
 The tool will output pearson scores and also write the predicted similarity scores given each pair of sentences from test data into predictions directory.
 
