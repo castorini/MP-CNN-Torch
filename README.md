@@ -10,8 +10,7 @@ This repo contains the implementation of a convolutional neural network based mo
 
 For more details, please refer to our recent paper:
 - ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``
-
-Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).
+- Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).
 
 
 Installation and Dependencies
