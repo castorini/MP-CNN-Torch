@@ -28,22 +28,46 @@
         </ul>
       </header>
       <section>
-        <p>This is a tool based on convolutional neural networks for text similarity measurement.</p>
+        <h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>There could be rapid code changes, since we are still working on codes integration and cleanup right now, </p>
+<p>This tool can be used to measure semantic similarity given any two pieces of texts. </p>
 
-<p>Dependencies:
-1. The code requires the Torch deep learning library. Please install it first. We also requires 'nngraph' package and 'lfs' package.
-2. This requires Standford's Glove word embeddings. Please download this word embeddings (we will provide scripts for this)</p>
+<p>This repo contains the implementation of a convolutional neural network based model for comparing two sentences that uses a multiplicity of perspectives. Our model does not require external resources such as WordNet or parsers, but can still achieve highly competitive performance, as measured on 3 public datasets (SICK, MSRVID, and MSRP).</p>
 
-<p>This repository already comes with SICK data and MSRVID data.</p>
+<p>For more details, please refer to our recent paper:</p>
 
-<p>Then, simply type:
-``th trainSIC.lua'' to get our convolutional neural network model trained on the SICK data set.</p>
+<ul>
+<li><code>Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks</code></li>
+<li>Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).</li>
+</ul>
 
-<p>More instructions/code updates to be coming. You can check back this page later.</p>
+<h2>
+<a id="installation-and-dependencies" class="anchor" href="#installation-and-dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation and Dependencies</h2>
 
-<p>Thanks.</p>
+<ul>
+<li><p>Please install Torch deep learning library. We recommend this local installation which includes all required packages our tool needs, simply follow the instructions here:
+<a href="https://github.com/torch/distro">https://github.com/torch/distro</a></p></li>
+<li><p>Currently our tool only runs on CPUs, therefore it is recommended to use INTEL MKL library (or at least OpenBLAS lib) so Torch can run much faster on CPUs. </p></li>
+<li><p>Once Torch is installed, our tool then requires Glove embeddings done by Stanford. Please run fetech_and_preprocess.sh for dowlonading and preprocessing this data set (around 3 GBs).</p></li>
+</ul>
+
+<h2>
+<a id="running" class="anchor" href="#running" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running</h2>
+
+<ul>
+<li>Command to run (training, tuning and testing all included): </li>
+<li>
+<code>th trainSIC.lua</code> or <code>th trainMSRVID.lua</code>
+</li>
+</ul>
+
+<p>The tool will output pearson scores and also write the predicted similarity scores given each pair of sentences from test data into predictions directory.</p>
+
+<h2>
+<a id="ackowledgement" class="anchor" href="#ackowledgement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ackowledgement</h2>
+
+<p>We thank Kai Sheng Tai for providing the preprocessing codes. We also thank the public data providers and Torch developers. Thanks.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/hohoCode">hohoCode</a></p>
