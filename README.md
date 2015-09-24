@@ -35,4 +35,4 @@ The tool will output pearson scores and also write the predicted similarity scor
 
 Ackowledgement
 -------------
-We thank the public data providers and Torch developers. We also thank Kai Sheng Tai for providing the preprocessing codes. Thanks.
+We thank Kai Sheng Tai for providing the preprocessing codes. We also thank the public data providers and Torch developers. Thanks.
