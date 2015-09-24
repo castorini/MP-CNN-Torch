@@ -1,11 +1,9 @@
 """
 Downloads the following:
-- Stanford parser
-- Stanford POS tagger
 - Glove vectors
 - SICK dataset (semantic relatedness task)
-- Stanford Sentiment Treebank (sentiment classification task)
 
+We Thank Kai Sheng Tai for providing the preprocessing/basis codes. 
 """
 
 from __future__ import print_function
