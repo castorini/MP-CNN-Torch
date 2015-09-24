@@ -1,5 +1,38 @@
-# sentenceSimilarityMeasurement
+Text Similarity Measurement using Convolutional Neural Networks
 
-th trainSIC.lua
 
-More updates on the way.
+Introduction
+------------
+
+This tool can be used to measure semantic similarity given any two pieces of texts. 
+
+This repo contains the implementation of a convolutional neural network based model for comparing two sentences that uses a multiplicity of perspectives. Our model does not require external resources such as WordNet or parsers, but can still achieve highly competitive performance, as measured on 3 public datasets (SICK, MSRVID, and MSRP).
+
+For more details, please refer to our recent paper:
+- ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``.
+Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).
+
+
+Installation and Dependencies
+------------
+
+- Please install Torch deep learning library. We recommend this local installation which included all required packages our tool needs, simply follow the instructions here:
+https://github.com/torch/distro
+
+- Currently our tool only runs on CPUs, therefore it is recommended to use INTEL MKL library (or at least OpenBLAS lib) so Torch can run much faster on CPUs. 
+
+- Once Torch is installed, our tool then requires Glove embeddings done by Stanford. Please run fetech_and_preprocess.sh for dowlonading and preprocessing this data set (around 3 GBs).
+
+
+Running
+------------
+
+- Command to run (training, tuning and testing all included): 
+``th trainSIC.lua`` or ``th trainMSRVID.lua``
+
+The tool will output pearson scores and also write the predicted similarity scores given each pair of sentences from test data into predictions directory.
+
+
+Ackowledgement
+-------------
+We thank the public data providers and Torch developers. We also thank Kai Sheng Tai for providing the preprocessing codes. Thanks.
