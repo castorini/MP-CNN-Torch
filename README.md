@@ -9,7 +9,8 @@ This tool can be used to measure semantic similarity given any two pieces of tex
 This repo contains the implementation of a convolutional neural network based model for comparing two sentences that uses a multiplicity of perspectives. Our model does not require external resources such as WordNet or parsers, but can still achieve highly competitive performance, as measured on 3 public datasets (SICK, MSRVID, and MSRP).
 
 For more details, please refer to our recent paper:
-- ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``.
+- ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``
+
 Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).
 
 
