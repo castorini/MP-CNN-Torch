@@ -16,7 +16,7 @@ For more details, please refer to our recent paper:
 Installation and Dependencies
 ------------
 
-- Please install Torch deep learning library. We recommend this local installation which included all required packages our tool needs, simply follow the instructions here:
+- Please install Torch deep learning library. We recommend this local installation which includes all required packages our tool needs, simply follow the instructions here:
 https://github.com/torch/distro
 
 - Currently our tool only runs on CPUs, therefore it is recommended to use INTEL MKL library (or at least OpenBLAS lib) so Torch can run much faster on CPUs. 
