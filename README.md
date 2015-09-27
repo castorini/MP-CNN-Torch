@@ -6,7 +6,7 @@ Introduction
 
 This tool can be used to measure semantic similarity given any two pieces of texts. 
 
-This repo contains the implementation of a convolutional neural network based model for comparing two sentences that uses a multiplicity of perspectives. Our model does not require external resources such as WordNet or parsers, but can still achieve highly competitive performance, as measured on 3 public datasets (SICK, MSRVID, and MSRP).
+This repo contains the implementation of a convolutional neural network based model for comparing two sentences. Our model does not require external resources such as WordNet or parsers, and can still achieve highly competitive performance as measured on 3 public datasets (SICK, MSRVID, and MSRP).
 
 For more details, please refer to our recent paper:
 - ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``
@@ -21,7 +21,7 @@ https://github.com/torch/distro
 
 - Currently our tool only runs on CPUs, therefore it is recommended to use INTEL MKL library (or at least OpenBLAS lib) so Torch can run much faster on CPUs. 
 
-- Once Torch is installed, our tool then requires Glove embeddings done by Stanford. Please run fetech_and_preprocess.sh for dowlonading and preprocessing this data set (around 3 GBs).
+- Our tool then requires Glove embeddings by Stanford. Please run fetech_and_preprocess.sh for downloading and preprocessing this data set (around 3 GBs).
 
 
 Running
