@@ -1,7 +1,6 @@
 """
 Downloads the following:
 - Glove vectors
-- SICK dataset (semantic relatedness task)
 
 We Thank Kai Sheng Tai for providing the preprocessing/basis codes. 
 """
@@ -17,9 +16,21 @@ import gzip
 def download(url, dirpath):
     filename = url.split('/')[-1]
     filepath = os.path.join(dirpath, filename)
-    u = urllib2.urlopen(url)
-    f = open(filepath, 'wb')
-    filesize = int(u.info().getheaders("Content-Length")[0])
+    try:
+        u = urllib2.urlopen(url)
+    except:
+        print("URL %s failed to open" %url)
+        raise Exception
+    try:
+        f = open(filepath, 'wb')
+    except:
+        print("Cannot write %s" %filepath)
+        raise Exception
+    try:
+        filesize = int(u.info().getheaders("Content-Length")[0])
+    except:
+        print("URL %s failed to report length" %url)
+        raise Exception
     print("Downloading: %s Bytes: %s" % (filename, filesize))
 
     downloaded = 0
@@ -42,6 +53,7 @@ def download(url, dirpath):
     return filepath
 
 def unzip(filepath):
+    print("Extracting: " + filepath)
     dirpath = os.path.dirname(filepath)
     with zipfile.ZipFile(filepath) as zf:
         zf.extractall(dirpath)
@@ -75,13 +87,6 @@ def download_parser(dirpath):
     os.remove(filepath)
     os.rename(os.path.join(dirpath, zip_dir), os.path.join(dirpath, parser_dir))
 
-def unzip(filepath):
-    print("Extracting: " + filepath)
-    dirpath = os.path.dirname(filepath)
-    with zipfile.ZipFile(filepath) as zf:
-        zf.extractall(dirpath)
-    os.remove(filepath)
-    
 def download_wordvecs(dirpath):
     if os.path.exists(dirpath):
         print('Found Glove vectors - skip')
@@ -90,7 +95,7 @@ def download_wordvecs(dirpath):
         os.makedirs(dirpath)
     url = 'http://www-nlp.stanford.edu/data/glove.840B.300d.zip'
     unzip(download(url, dirpath))
-    
+
 def download_sick(dirpath):
     if os.path.exists(dirpath):
         print('Found SICK dataset - skip')
