@@ -14,19 +14,30 @@ function similarityMeasure.read_sentences(path, vocab)
   local sentences = {}
   local file = io.open(path, 'r')
   local line
+  
+  local fixed = true
   while true do
     line = file:read()
     if line == nil then break end
     local tokens = stringx.split(line)
     local len = #tokens
-    local sent = torch.IntTensor(len)
+    local padLen = len
+    if fixed and len < 3 then
+      padLen = 3
+    end
+    local sent = torch.IntTensor(padLen)
     for i = 1, len do
       local token = tokens[i]
       sent[i] = vocab:index(token)
     end
+    if fixed and len < 3 then
+      for i = len+1, padLen do
+        sent[i] = vocab:index("unk") -- sent[len]
+      end
+    end
     sentences[#sentences + 1] = sent
   end
-
+  
   file:close()
   return sentences
 end
