@@ -32,6 +32,26 @@ Running
 
 The tool will output pearson scores and also write the predicted similarity scores given each pair of sentences from test data into predictions directory.
 
+Adaption to New Dataset
+------------
+To run our model on your own dataset, first you need to build the dataset following below format and put it under data folder:
+
+- a.toks: sentence A, each sentence per line.
+- b.toks: sentence B, each sentence per line.
+- id.txt: sentence pair ID
+- sim.txt: semantic relatedness gold label, can be in any scale. For binary classification, the set of labels will be {0, 1}.
+
+Then build vocabulary for your dataset which writes the vocab-cased.txt into your data folder:
+```
+$ python build_vocab.py
+```
+The last thing is to change the training and model code slightly to process your dataset:
+- change util/read_data.lua to handle your data.
+- create a new piece of training code following trainSIC.lua to read in your dataset.
+- change Conv.lua in Line 89-102 and 142-148 to handle your own task
+- more details can refer to issue https://github.com/hohoCode/textSimilarityConvNet/issues/6
+
+Then you should be able to run your training code.
 
 Ackowledgement
 -------------
