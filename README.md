@@ -1,17 +1,10 @@
-Text Similarity Measurement using Convolutional Neural Networks
+# Multi-Perspective Convolutional Neural Networks for Modeling Textual Similarity
 
+This repo contains the Torch implementation of multi-perspective convolutional neural networks for modeling textual similarity, described in the following paper:
 
-Introduction
-------------
++ Hua He, Kevin Gimpel, and Jimmy Lin. [Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks.](http://aclweb.org/anthology/D/D15/D15-1181.pdf) *Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015)*, pages 1576-1586.
 
-This tool can be used to measure semantic similarity given any two pieces of texts. 
-
-This repo contains the implementation of a convolutional neural network based model for comparing two sentences. Our model does not require external resources such as WordNet or parsers, and can still achieve highly competitive performance as measured on 3 public datasets (SICK, MSRVID, and MSRP).
-
-For more details, please refer to our recent paper:
-- ``Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks``
-- Hua He, Kevin Gimpel, and Jimmy Lin. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).
-
+This model does not require external resources such as WordNet or parsers, does not use sparse features, and achieves good accuracy on standard public datasets.
 
 Installation and Dependencies
 ------------
