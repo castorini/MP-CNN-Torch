@@ -46,6 +46,28 @@ The last thing is to change the training and model code slightly to process your
 
 Then you should be able to run your training code.
 
+Trained Model
+-------------
+We also porvide a model which is already trained on STS dataset. So it is easier if you just want to use the model and do not want to re-train it. 
+
+The tarined model download link is [HERE](https://drive.google.com/file/d/0B-lu_eEMkpVxYVdPMldJX3JDVjg/view?usp=sharing). Model file size is 500MB. To use the trained model, then simply use codes below:
+```
+include('Conv.lua')
+modelTrained = torch.load("download_local_location/modelSTS.trained.th", 'ascii')
+modelTrained.convModel:evaluate()
+modelTrained.softMaxC:evaluate()
+local linputs = torch.zeros(rigth_sentence_length, emd_dimension)
+linpus = XassignEmbeddingValuesX
+local rinputs = torch.zeros(left_sentence_length, emd_dimension)
+rinpus = XassignEmbeddingValuesX
+
+local part2 = modelTrained.convModel:forward({linputs, rinputs})
+local output = modelTrained.softMaxC:forward(part2)
+local val = torch.range(0, 5, 1):dot(output:exp()) 
+return val/5
+```
+The ouput variable 'val' contains a similarity score between [0,1]. The input linputs1/rinputs are torch tensors and you need to fill in the word embedding values for both.
+
 Ackowledgement
 -------------
 We thank Kai Sheng Tai for providing the preprocessing codes. We also thank the public data providers and Torch developers. Thanks.
