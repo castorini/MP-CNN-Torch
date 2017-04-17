@@ -1,6 +1,7 @@
 --[[
-  Training script for semantic relatedness prediction on the SICK dataset.
-  We Thank Kai Sheng Tai for providing the preprocessing/basis codes. 
+  Author: Hua He
+  Usage： th trainSIC.lua
+  Training script for semantic relatedness prediction on the SICK dataset. 
 --]]
 
 require('torch')
