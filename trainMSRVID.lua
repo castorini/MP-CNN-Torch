@@ -1,6 +1,7 @@
 --[[
-  Training script for semantic relatedness prediction on the SICK dataset.
-  We Thank Kaitai Change to provide a basis code for this. Our modifications are based on his.
+  Author: Hua He
+  Usage: th trainMSRVID.lua
+  Training script for semantic relatedness prediction on the MSRVID dataset.
 --]]
 
 require('torch')
