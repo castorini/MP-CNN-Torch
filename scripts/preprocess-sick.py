@@ -1,7 +1,6 @@
 """
-We Thank Kai Sheng Tai for providing this preprocessing/basis codes. 
-Preprocessing script for SICK data.
-
+This file is not required to run our codes, as we have provided the preprocessed data.
+We Thank Kai Sheng Tai for the preprocessing script of SICK data.
 """
 
 import os
