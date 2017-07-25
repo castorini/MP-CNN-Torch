@@ -42,17 +42,16 @@ The last thing is to change the training and model code slightly to process your
 - change util/read_data.lua to handle your data.
 - create a new piece of training code following trainSIC.lua to read in your dataset.
 - change Conv.lua in Line 89-102 and 142-148 to handle your own task
-- more details can refer to issue https://github.com/hohoCode/textSimilarityConvNet/issues/6
+- more details can refer to issue https://github.com/castorini/MP-CNN-Torch/issues/6
 
 Then you should be able to run your training code.
 
 Trained Model
 -------------
-We also porvide a model which is already trained on STS dataset. So it is easier if you just want to use the model and do not want to re-train it. 
+We also porvide a model which is already trained on STS dataset. So it is easier if you just want to use the model and do not want to re-train the whole thing. 
 
 The tarined model download link is [HERE](https://drive.google.com/file/d/0B-lu_eEMkpVxYVdPMldJX3JDVjg/view?usp=sharing). Model file size is 500MB. To use the trained model, then simply use codes below:
 ```
-include('Conv.lua')
 modelTrained = torch.load("download_local_location/modelSTS.trained.th", 'ascii')
 modelTrained.convModel:evaluate()
 modelTrained.softMaxC:evaluate()
@@ -66,7 +65,16 @@ local output = modelTrained.softMaxC:forward(part2)
 local val = torch.range(0, 5, 1):dot(output:exp()) 
 return val/5
 ```
-The ouput variable 'val' contains a similarity score between [0,1]. The input linputs1/rinputs are torch tensors and you need to fill in the word embedding values for both.
+The ouput variable 'val' contains a similarity score between [0,1]. The input linputs1/rinputs are torch tensors and you need to fill in the word embedding values for both. 
+
+Example Deployment Script with Our Trained Model
+-------------
+We provide one example file for deployment: testDeployTrainedModel.lua. So it is easier for you to directly use our model. Run:
+```
+$ th testDeployTrainedModel.lua
+```
+This deployment file will use the trained model (assume you have downloaded the trained model from the above link), and it will generate scores given all test sentences of sick dataset. Please note the trained model is not trained on SICK data.
+
 
 Ackowledgement
 -------------
