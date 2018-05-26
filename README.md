@@ -1,5 +1,7 @@
 # Multi-Perspective Convolutional Neural Networks for Modeling Textual Similarity
 
+**NOTE: This repo contains code for the original Torch implementation from the EMNLP 2015 paper. The code is not being maintained anymore and has been superseded by a PyTorch reimplementation in [Castor](https://github.com/castorini/Castor). This repo exists solely for archival purposes.**
+
 This repo contains the Torch implementation of multi-perspective convolutional neural networks for modeling textual similarity, described in the following paper:
 
 + Hua He, Kevin Gimpel, and Jimmy Lin. [Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks.](http://aclweb.org/anthology/D/D15/D15-1181.pdf) *Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015)*, pages 1576-1586.
